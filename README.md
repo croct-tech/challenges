@@ -30,7 +30,7 @@ Does the solution do what was asked? If anything is missing, does the README exp
 Does the solution take a creative approach to solve the problem?
 - 🦾 **Usability**  
 Is the solution accessible and helpful to users?
-- :mage: **Maintainability**  
+- 🧙 **Maintainability**  
 Is the solution simple, easy to understand, and maintainable?
 
 

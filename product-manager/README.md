@@ -23,7 +23,7 @@ Completing the challenge will require you to:
 - Write the stories in English 🇺🇸
 - Use a clear and unambiguous writing style
 - Describe the stories in plain text using the [Gherkin language](https://cucumber.io/docs/gherkin/reference)
-- Uncover as many scenarios as possible: there are at least 6 stories on each page
+- Uncover as many scenarios as possible: there are at least 6 stories on each page.
 
 Below, you can see the example of a story where the user wants to change their name from `john-doe` to `johndoe`:
 
@@ -47,7 +47,7 @@ Here is the transcript of the conversation between the **Designer** and the **Pr
 >
 > **Designer:** Let's start from the beginning. I designed this navigation flow between these [sign-in and sign-up screens](https://user-images.githubusercontent.com/943036/114629591-3f3ab300-9c8f-11eb-9edb-cbe5cd9a4051.png). What are your thoughts?
 >
-> **Product Manager:** I just took a look here. It looks good, but don't forget that your task comprehends only the sign-in and sign-up screens. Don't worry about the other screens for now.
+> **Product Manager:** I just took a look here. It seems good, but don't forget that your task comprehends only the sign-in and sign-up screens. Don't worry about the other screens for now.
 >
 > **Designer:** Ok! Which information does a user need to provide to create an account?
 >
@@ -57,17 +57,17 @@ Here is the transcript of the conversation between the **Designer** and the **Pr
 >
 > **Product Manager:** Great question! We take security very seriously here. That's why we have some strict password requirements. At the very least, for a password to be considered strong, it should be at least 8 characters long, contain uppercase and lowercase letters, and have at least one number or symbol.
 >
-> **Designer:** Got it. Once the user is registered, which information they need to login to Croct?
+> **Designer:** Got it. Once the user is registered, which information do they need to log in to Croct?
 >
-> **Product Manager:** The email and password, as usual
+> **Product Manager:** The email and password, as usual.
 >
-> **Designer:** That's what I thought. Taking all we've discussed into account, I designed these [wireframes](https://user-images.githubusercontent.com/943036/114629543-2c27e300-9c8f-11eb-9122-d9c11113e5db.png) for the pages
+> **Designer:** That's what I thought. Taking all we've discussed into account, I designed these [wireframes](https://user-images.githubusercontent.com/943036/114629543-2c27e300-9c8f-11eb-9122-d9c11113e5db.png) for the pages.
 >
 > **Designer**: Do you think the structure and copies make sense?
 >
 > **Product Manager:** That's exactly it!
 >
-> **Designer:** Good to hear! And, thank you for the help 😉. Once I get the screens finished, I will send them to you to write the user stories.
+> **Designer:** Good to hear! And, thank you for the help 😉. Once I finish the screens, I will send them to you to write the user stories.
 >
 > **Product Manager:** Anytime 🙂
 >

@@ -14,6 +14,8 @@ The Croct Code Challenges is a repository that houses technical challenges that 
 
 The goal is to test your in-depth knowledge of tools and technologies that you may frequently use. We don't believe there is a one-size-fits-all solution to any challenge, so don't expect to see one. We're looking for creative and innovative solutions that make use of the tools and technologies at your disposal. Exploring, digging, and breaking out of your comfort zone will most often lead to better outcomes.
 
+> 👉 Check out the currently available job openings on [our careers page](https://croct.com/careers/).
+
 ### Evaluation Criteria
 
 The Croct team will review your challenge based on the following criteria:

@@ -8,6 +8,8 @@
     Have fun showing off your skills!
 </p>
 
+### Introduction
+
 The Croct Code Challenges is a repository that houses technical challenges that resemble real-world challenges you may face in day-to-day work at Croct.
 
 The goal is to test your in-depth knowledge of tools and technologies that you may frequently use. We don't believe there is a one-size-fits-all solution to any challenge, so don't expect to see one. We're looking for creative and innovative solutions that make use of the tools and technologies at your disposal. Exploring, digging, and breaking out of your comfort zone will most often lead to better outcomes.
@@ -26,7 +28,7 @@ The Croct team will review your challenge based on the following criteria:
 
 The current list of challenges in this repository is:
 
-- **Product Manager**  
+- [**Product Manager**](/product-manager)  
 Specify user stories that will guide the development team in building a new feature.
 
 - [**Technical Writer**](/technical-writer)  

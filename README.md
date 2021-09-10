@@ -22,7 +22,7 @@ The Croct team will review your challenge based on the following criteria:
 - **Correctness:** Does the solution do what was asked? If anything is missing, does the README explain why it is missing?
 - **Maintainability:** Is the solution simple, easy to understand, and maintainable?
 - **Creativity** Does the solution take a creative approach to solve the problem?
-- **Usability:** Is the solution approachable and helpful to users? Plagiarism will not be tolerated and will lead to immediate disqualification.
+- **Usability:** Is the solution approachable and helpful to users?
 
 ### Challenges
 

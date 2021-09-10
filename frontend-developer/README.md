@@ -31,7 +31,7 @@ The `<AvatarUpload />` component should allow users to upload images to make it 
 
 - It should allow uploading an image by dragging it into the dashed area or clicking on it.
 - Throughout the entire process, the user can click on the "X" icon to cancel and return to the initial state
-- After upload, the user can adjust the image to better fit the circular format. Using a slider, the user can zoom in and out on the image cut out by the circular mask to preview the final result.
+- After uploading, the user can adjust the image to better fit the circular format. Using a slider, the user can zoom in and out on the image cut out by the circular mask to preview the final result.
 - Clicking on save, the component should display the cropped logo and a button to restart the process. It must also provide some way for parent components to access the resulting image's raw data.
 
 We are very focused on code quality, so we expect you to include tests to ensure all requirements are covered.

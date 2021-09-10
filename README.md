@@ -18,7 +18,7 @@ The goal is to test your in-depth knowledge of tools and technologies that you m
 
 > 👉 Check out the currently available job openings on [our careers page](https://croct.com/careers/).
 
-### Evaluation Criteria
+### Evaluation criteria
 
 The Croct team will review your challenge based on the following criteria:
 

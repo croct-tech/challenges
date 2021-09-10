@@ -18,11 +18,17 @@ The goal is to test your in-depth knowledge of tools and technologies that you m
 
 The Croct team will review your challenge based on the following criteria:
 
-- **Clarity:** Does the README clearly explain the problem and solution?
-- **Correctness:** Does the solution do what was asked? If anything is missing, does the README explain why it is missing?
-- **Maintainability:** Is the solution simple, easy to understand, and maintainable?
-- **Creativity** Does the solution take a creative approach to solve the problem?
-- **Usability:** Is the solution approachable and helpful to users?
+- 🧐**Clarity**  
+Does the README clearly explain the problem and solution?
+- ✅ **Correctness**  
+Does the solution do what was asked? If anything is missing, does the README explain why it is missing?
+- 🧑‍🎨 **Creativity**  
+Does the solution take a creative approach to solve the problem?
+- 🦾 **Usability**  
+Is the solution accessible and helpful to users?
+- 🪄 **Maintainability**  
+Is the solution simple, easy to understand, and maintainable?
+
 
 ### Challenges
 

@@ -68,7 +68,7 @@ Here is the transcript of the interview:
 > **Interviewer:** I can't imagine a company that doesn't care about all three of those. Each application uses a different tech stack, though, how does Croct adapt to that? 🤔
 >
 >
-> **Juliana:** Our focus is on providing a great developer experience on any platform and framework. We currently provide an SDK for JavaScript only, but we're working on providing support for iOS and Android.
+> **Juliana:** Our focus is on providing a great developer experience on any platform and framework. We currently provide an SDK only for JavaScript, but we're working to support iOS and Android.
 >
 > **Interviewer:** Can you walk me through the implementation process?
 >

@@ -124,7 +124,7 @@ Here is the transcript of the interview:
 >
 > **Interviewer:** Is there any style guide in particular that we follow?
 >
-> **Juliana:** Yes, we really like the [Google style guide](https://developers.google.com/style), but the [IBM](https://www.ibm.com/developerworks/library/styleguidelines/index.html) and [Apple](https://help.apple.com/applestyleguide/) style guides are pretty good too.
+> **Juliana:** Yes, we really like the [Google style guide](https://developers.google.com/style), but the [IBM](https://www.carbondesignsystem.com/guidelines/content/writing-style/) and [Apple](https://help.apple.com/applestyleguide/) style guides are pretty good too.
 >
 > **Interviewer:** What is it specifically about their style guide that appeals to you?
 >

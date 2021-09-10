@@ -18,7 +18,7 @@ The goal is to test your in-depth knowledge of tools and technologies that you m
 
 The Croct team will review your challenge based on the following criteria:
 
-- 🧐**Clarity**  
+- 🧐 **Clarity**  
 Does the README clearly explain the problem and solution?
 - ✅ **Correctness**  
 Does the solution do what was asked? If anything is missing, does the README explain why it is missing?

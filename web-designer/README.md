@@ -19,11 +19,9 @@ brand consistency (between the analyzed platforms), and personal perspective.
 - Notion: [site](https://www.notion.so/product) and [Instagram](https://www.instagram.com/notionhq/)
 - Vtex: [site](https://vtex.com/us-en/) and [Instagram](https://www.instagram.com/vtexbrasil/)
 
-
 The second part of your challenge will be to redo this Croct post:
 
 ![post](https://user-images.githubusercontent.com/11818859/137536174-02b801b9-ae51-4254-8121-48e152ab30b9.png)
-
 
 > **Context:** Croct's clients can access a table showing the main interests of their users so that marketers can make 
 personalizations for different people according to their interests. It's not necessary to think about the caption.

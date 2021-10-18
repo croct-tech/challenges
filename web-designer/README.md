@@ -5,7 +5,7 @@
     <br />
     <strong>Social Media Post</strong>
     <br />
-    An Instagram post to a product campaign.
+    Design an Instagram post for a product campaign.
 </p>
 
 # Challenge
@@ -42,6 +42,6 @@ Here is the transcript of the interview:
 
 ## Deliverable
 
-Please send us your analysis and your post in a PDF file to jobs@croct.com, and we will reply to your email, including the next steps in the process.
+Please send us your analysis and the post assets to [jobs@croct.com](mailto:jobs@croct.com). You can use Photoshop, Illustrator, Figma, or any tool of choice, as long as the output allows us to evaluate how you organize your work. We will reply to your email informing the next steps in the process.
 
 We will do our best to review your project and get back with feedback on the result as soon as possible.

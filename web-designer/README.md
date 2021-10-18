@@ -10,22 +10,25 @@
 
 # Challenge
 
-As a Web Designer, you will be responsible for developing and ensuring consistency across all company communication 
-channels (social media, website, and external presentations). For starters, your first job will be to analyze the 
-Instagram and the website of one of the companies below. Document all your impressions based on design principles, 
-brand consistency (between the analyzed platforms), and personal perspective. It's not necessary to think about the caption.
+As a Web Designer, you will be responsible for developing and ensuring consistency across all company communication
+channels (social media, website, and external presentations).
+
+For starters, your first task is to analyze the Instagram pages and the website of one of the companies below and
+document your impressions regarding design principles, brand consistency (between the examined platforms), and personal
+perspective.
 
 - Quintoandar: [site](https://www.quintoandar.com.br/) and [Instagram](https://www.instagram.com/quintoandardesign/)
 - Notion: [site](https://www.notion.so/product) and [Instagram](https://www.instagram.com/notionhq/)
 - Vtex: [site](https://vtex.com/us-en/) and [Instagram](https://www.instagram.com/vtexbrasil/)
 
-The second part of your challenge will be to recreate this post:
+The second task is recreating the post below:
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/11818859/137769484-ae3d6265-637b-4e2c-9ee2-3f85d25edd20.png" alt="Post" width="600"/>
 </p>
 
-**Context:** We provide a report that spots the users' main interests to let our customers plan personalizations for different people according to their interests.
+**Context:** We provide a report that spots the users' main interests to let our customers plan personalizations for
+different people according to their interests.
 
 ## Requirements
 
@@ -43,6 +46,8 @@ Here is the transcript of the interview:
 
 ## Deliverable
 
-Please send us your analysis and the post assets to [jobs@croct.com](mailto:jobs@croct.com). You can use Photoshop, Illustrator, Figma, or any tool of choice, as long as the output allows us to evaluate how you organize your work. We will reply to your email informing the next steps in the process.
+Please send us your analysis and the post assets to [jobs@croct.com](mailto:jobs@croct.com). You can use Photoshop,
+Illustrator, Figma, or any tool of choice, as long as the output allows us to evaluate how you organize your work. We
+will reply to your email informing the next steps in the process.
 
 We will do our best to review your project and get back with feedback on the result as soon as possible.

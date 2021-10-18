@@ -17,15 +17,13 @@ For starters, your first task is to analyze the Instagram page and the website o
 document your impressions regarding design principles, brand consistency (between the examined platforms), and personal
 perspective.
 
-- Quintoandar: [site](https://www.quintoandar.com.br/) and [Instagram](https://www.instagram.com/quintoandardesign/)
+- QuintoAndar: [site](https://www.quintoandar.com.br/) and [Instagram](https://www.instagram.com/quintoandardesign/)
 - Notion: [site](https://www.notion.so/product) and [Instagram](https://www.instagram.com/notionhq/)
 - Vtex: [site](https://vtex.com/us-en/) and [Instagram](https://www.instagram.com/vtexbrasil/)
 
 The second task is redesigning the post below:
 
-<p align="center">
-    <img src="https://user-images.githubusercontent.com/11818859/137769484-ae3d6265-637b-4e2c-9ee2-3f85d25edd20.png" alt="Post" width="500"/>
-</p>
+![Post](https://user-images.githubusercontent.com/943036/137801895-28abdc1b-0534-435c-8574-3b8be7a097f6.jpg)
 
 > **Context**  
 > We provide a report that spots the users' main interests to let our customers plan personalizations for
@@ -43,7 +41,9 @@ Completing the challenge will require you to:
 Here is the transcript of the interview:
 
 - [Croct's brand voice](https://docs.google.com/presentation/d/e/2PACX-1vRatzCe6A0lLBoWScWHivs8VoMKbv_I5N1HNQzjzEKQ0QxtRlMeXkngHtKMxFL-dMGmZZDUjV-mS7Ek/pub?start=false&loop=false&delayms=3000)
-- [Image of a table of interests](https://user-images.githubusercontent.com/11818859/137769752-aff10064-c77e-43ae-84bb-2845dcb17943.png)
+- [Table of interests](https://user-images.githubusercontent.com/11818859/137769752-aff10064-c77e-43ae-84bb-2845dcb17943.png)
+- [Post in high resolution](https://user-images.githubusercontent.com/943036/137816832-a99e835b-4d67-4ffb-a27a-8b92180bb845.png)
+- [Instagram feed](https://user-images.githubusercontent.com/943036/137816777-16dafdb1-8884-4a90-a7b0-df36cc041c0c.png)
 
 ## Deliverable
 

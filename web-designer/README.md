@@ -24,7 +24,7 @@ perspective.
 The second task is recreating the post below:
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/11818859/137769484-ae3d6265-637b-4e2c-9ee2-3f85d25edd20.png" alt="Post" width="600"/>
+    <img src="https://user-images.githubusercontent.com/11818859/137769484-ae3d6265-637b-4e2c-9ee2-3f85d25edd20.png" alt="Post" width="500"/>
 </p>
 
 > **Context** 

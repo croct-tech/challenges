@@ -13,7 +13,7 @@
 As a Web Designer, you will be responsible for developing and ensuring consistency across all company communication
 channels (social media, website, and external presentations).
 
-For starters, your first task is to analyze the Instagram pages and the website of one of the companies below and
+For starters, your first task is to analyze the Instagram page and the website of one of the companies below and
 document your impressions regarding design principles, brand consistency (between the examined platforms), and personal
 perspective.
 

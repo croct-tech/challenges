@@ -13,18 +13,19 @@
 As a Web Designer, you will be responsible for developing and ensuring consistency across all company communication 
 channels (social media, website, and external presentations). For starters, your first job will be to analyze the 
 Instagram and the website of one of the companies below. Document all your impressions based on design principles, 
-brand consistency (between the analyzed platforms), and personal perspective.
+brand consistency (between the analyzed platforms), and personal perspective. It's not necessary to think about the caption.
 
 - Quintoandar: [site](https://www.quintoandar.com.br/) and [Instagram](https://www.instagram.com/quintoandardesign/)
 - Notion: [site](https://www.notion.so/product) and [Instagram](https://www.instagram.com/notionhq/)
 - Vtex: [site](https://vtex.com/us-en/) and [Instagram](https://www.instagram.com/vtexbrasil/)
 
-The second part of your challenge will be to redo this Croct post:
+The second part of your challenge will be to recreate this post:
 
-![post](https://user-images.githubusercontent.com/11818859/137769484-ae3d6265-637b-4e2c-9ee2-3f85d25edd20.png)
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/11818859/137769484-ae3d6265-637b-4e2c-9ee2-3f85d25edd20.png" alt="Post" width="600"/>
+</p>
 
-**Context:** Croct's clients can access a table showing the main interests of their users so that marketers can make 
-personalizations for different people according to their interests. It's not necessary to think about the caption.
+**Context:** We provide a report that spots the users' main interests to let our customers plan personalizations for different people according to their interests.
 
 ## Requirements
 

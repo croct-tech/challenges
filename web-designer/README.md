@@ -21,7 +21,7 @@ perspective.
 - Notion: [site](https://www.notion.so/product) and [Instagram](https://www.instagram.com/notionhq/)
 - Vtex: [site](https://vtex.com/us-en/) and [Instagram](https://www.instagram.com/vtexbrasil/)
 
-The second task is recreating the post below:
+The second task is redesigning the post below:
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/11818859/137769484-ae3d6265-637b-4e2c-9ee2-3f85d25edd20.png" alt="Post" width="500"/>

@@ -51,4 +51,4 @@ Build a React component using Typescript to let users upload and crop avatars.
 Create a Terraform module to deploy a Kafka cluster, a consumer and a producer on an existing Kubernetes cluster using the Strimzi Kafka operator.
 
 - [**Web Designer**](/web-designer)  
-  Design an Instagram post for a product campaign.
+Design an Instagram post for a product campaign.

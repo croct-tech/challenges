@@ -52,3 +52,6 @@ Create a Terraform module to deploy a Kafka cluster, a consumer and a producer o
 
 - [**Web Designer**](/web-designer)  
 Design an Instagram post for a product campaign.
+
+- [**Content Strategist**](/content-strategist)  
+Write a blog post about progressive profiling.

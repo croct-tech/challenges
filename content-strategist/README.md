@@ -68,7 +68,7 @@ interests and needs. It is progressive profiling 2.0.
 Completing the challenge will require you to:
 
 - Write the document and the blog post in English 🇺🇸
--Follow [our brand voice](https://croct.link/brand-voice)
+- Follow [our brand voice](https://croct.link/brand-voice)
 
 ## Deliverable
 

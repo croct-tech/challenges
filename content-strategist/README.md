@@ -14,9 +14,8 @@ As a Content Strategist, you will be responsible for creating content and ensuri
 communication channels (blog, social media, website, sales materials, etc.).
 
 You received a briefing about progressive profiling, a new strategy quickly gaining traction in the digital marketing
-world. Your task is to write a blog post introducing progressive profiling for people who may not know what it is. You
-should also document the process you go through to create this post, from researching the topic to writing the final
-draft.
+world. Your task is to write a blog post introducing the topic for people who may not know it. You should also document
+the process you go through to create this post, from researching the topic to writing the final draft.
 
 ## Briefing
 

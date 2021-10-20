@@ -40,7 +40,7 @@ Completing the challenge will require you to:
 
 Here is the transcript of the interview:
 
-- [Croct's brand voice](https://docs.google.com/presentation/d/e/2PACX-1vRatzCe6A0lLBoWScWHivs8VoMKbv_I5N1HNQzjzEKQ0QxtRlMeXkngHtKMxFL-dMGmZZDUjV-mS7Ek/pub?start=false&loop=false&delayms=3000)
+- [Our brand voice](https://croct.link/brand-voice)
 - [Table of interests](https://user-images.githubusercontent.com/11818859/137769752-aff10064-c77e-43ae-84bb-2845dcb17943.png)
 - [Post in high resolution](https://user-images.githubusercontent.com/943036/137816832-a99e835b-4d67-4ffb-a27a-8b92180bb845.png)
 - [Instagram feed](https://user-images.githubusercontent.com/943036/137816777-16dafdb1-8884-4a90-a7b0-df36cc041c0c.png)

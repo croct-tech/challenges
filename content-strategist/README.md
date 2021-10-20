@@ -55,7 +55,7 @@ Our product automatically captures users' browsing data to build an anonymous pr
 includes all browsing history. It can happen over a single session or a much more extended period, such as months or
 years.
 
-Marketers have always used the term "progressive profiling" to refer to the practice of progressively capturing data in
+Marketers have always used the term _progressive profiling_ to refer to the practice of progressively capturing data in
 forms. The main goal is to prevent the user from providing the same information more than once and ensure to use each
 opportunity to get to know more about him.
 

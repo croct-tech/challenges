@@ -11,23 +11,29 @@
 # Challenge
 
 As a Content Strategist, you will be responsible for creating content and ensuring consistency across all company
-communication channels (blog, social media, website, sales materials, and so on).
+communication channels (blog, social media, website, sales materials, etc.).
 
-Your task is to write a blog post about progressive profiling, according to the briefing provided above, and provide us 
-with the details on how your process went, from research to writing.
+You received a briefing about progressive profiling, a new strategy quickly gaining traction in the digital marketing
+world. Your task is to write a blog post introducing progressive profiling for people who may not know what it is. You
+should also document the process you go through to create this post, from researching the topic to writing the final
+draft.
 
 ## Briefing
 
+The requirements for this blog post are:
+
 ### Keywords
 
-The main keywords are:
+The post should include the following keywords:
+
 - progressive profiling
 - user profile
 - anonymous tracking
 
 ### Questions
 
-The questions that the content must answer are:
+The post should address the following questions:
+
 - What is progressive profiling?
 - How do marketers use it today?
 - How can they do this while the user is browsing?
@@ -35,27 +41,27 @@ The questions that the content must answer are:
 
 ### Description
 
-Progressive profiling is a technique that allows marketers to continuously collect information on leads at strategic 
-interactions throughout the buyer's journey. It means requesting a few info at a time rather than asking for too much 
+Progressive profiling is a technique that allows marketers to continuously collect information on leads at strategic
+interactions throughout the buyer's journey. It means requesting a few info at a time rather than asking for too much
 all at once.
 
-Croct is a user journey optimization platform. We serve both product professionals and marketers, i.e., people that 
-focus on user experience, onboarding, retention, recurrence, conversion rate, segmentation, lead nurturing, lead 
+Croct is a user journey optimization platform. We serve both product professionals and marketers, i.e., people that
+focus on user experience, onboarding, retention, recurrence, conversion rate, segmentation, lead nurturing, lead
 acquisition, and growth.
 
-When it comes to personalization, it all starts with understanding the users' needs. Without data, we can't comprehend 
+When it comes to personalization, it all starts with understanding the users' needs. Without data, we can't comprehend
 them and, therefore, customize their journey.
 
-Our product automatically captures users' browsing data to build an anonymous profile associated with a journey that 
-includes all browsing history. It can happen over a single session or a much more extended period, such as months 
-or years.
+Our product automatically captures users' browsing data to build an anonymous profile associated with a journey that
+includes all browsing history. It can happen over a single session or a much more extended period, such as months or
+years.
 
-Marketers have always used the term "progressive profiling" to refer to the practice of progressively capturing data 
-in forms. The main goal is to prevent the user from providing the same information more than once and ensure to use 
-each opportunity to get to know more about him.
+Marketers have always used the term "progressive profiling" to refer to the practice of progressively capturing data in
+forms. The main goal is to prevent the user from providing the same information more than once and ensure to use each
+opportunity to get to know more about him.
 
-During some talks with our customers, it came to our min that progressive profiling is much more than just form data 
-collection. Our product allows marketers to enrich the user's profile throughout the navigation to understand their 
+During some talks with our customers, it came to our min that progressive profiling is much more than just form data
+collection. Our product allows marketers to enrich the user's profile throughout the navigation to understand their
 interests and needs. It is progressive profiling 2.0.
 
 ## Requirements
@@ -63,11 +69,13 @@ interests and needs. It is progressive profiling 2.0.
 Completing the challenge will require you to:
 
 - Write the document and the blog post in English 🇺🇸
-- Follow [Croct's brand voice](https://docs.google.com/presentation/d/e/2PACX-1vRatzCe6A0lLBoWScWHivs8VoMKbv_I5N1HNQzjzEKQ0QxtRlMeXkngHtKMxFL-dMGmZZDUjV-mS7Ek/pub?start=false&loop=false&delayms=3000)
+-
+
+Follow [Croct's brand voice](https://docs.google.com/presentation/d/e/2PACX-1vRatzCe6A0lLBoWScWHivs8VoMKbv_I5N1HNQzjzEKQ0QxtRlMeXkngHtKMxFL-dMGmZZDUjV-mS7Ek/pub?start=false&loop=false&delayms=3000)
 
 ## Deliverable
 
-Please send us your analysis and the post assets to [jobs@croct.com](mailto:jobs@croct.com) in a Google Docs, and 
-we will reply to your email informing the next steps in the process.
+Please send us the blog post and the document describing the steps to [jobs@croct.com](mailto:jobs@croct.com) in a
+Google Docs document, and we will reply to your email informing the next steps in the process.
 
 We will do our best to review your content and get back with feedback on the result as soon as possible.

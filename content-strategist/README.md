@@ -59,7 +59,7 @@ Marketers have always used the term _progressive profiling_ to refer to the prac
 forms. The main goal is to prevent the user from providing the same information more than once and ensure to use each
 opportunity to get to know more about him.
 
-During some talks with our customers, it came to our min that progressive profiling is much more than just form data
+During some talks with our customers, it came to our mind that progressive profiling is much more than just form data
 collection. Our product allows marketers to enrich the user's profile throughout the navigation to understand their
 interests and needs. It is progressive profiling 2.0.
 

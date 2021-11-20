@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/favicon.svg">
+    <link rel="stylesheet" href="styles.css">
+    <meta
+        name="description"
+        content="Example of how to use Croct to personalize content on the server-side."
+    />
+    <title>Croct | Server-side Evaluation Example</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <a href="https://croct.com" class="logo">
+                <img src="images/logo.svg" title="Croct" alt="Croct" />
+            </a>
+            <div class="persona-selector">
+                <div class="select">
+                    <label>
+                        Persona:
+                        <select id="persona-selector">
+                            <option value="default">👤 Default</option>
+                            <option value="marketer">👩‍💻 Marketer</option>
+                            <option value="growth-hacker">🚀 Growth Hacker</option>
+                            <option value="developer">🦸‍♂ Developer</option>
+                        </select>
+                    </label>
+                    <svg viewBox="0 0 8 6" width="8" height="6" fill="none" class="icon-arrow">
+                        <path
+                            d="M7 1.5l-3 3-3-3"
+                            stroke="#9CA3AF"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                    </svg>
+                </div>
+            </div>
+        </header>
+        <div class="content">
+            <div class="hero">
+                <h1>{title}</h1>
+                <p class="subtitle">
+                    {subtitle}
+                </p>
+                <a href={cta.link} class="cta">{cta.label}</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const selector = document.getElementById('persona-selector');
+        const url = new URL(window.location);
+
+        if (url.searchParams.has('persona')) {
+            selector.value = url.searchParams.get('persona');
+        }
+
+        selector.addEventListener('change', (event) => {
+            url.searchParams.set('persona', event.target.value);
+            window.location = url.toString();
+        });
+    </script>
+</body>
+</html>

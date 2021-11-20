@@ -24,7 +24,7 @@
 
 ## Introduction
 
-This application is a landing page that shows personalized content based on the user's persona using 
+This application is a landing page that renders a personalized content based on the user's persona using 
 Croct's server-side personalization capabilities.
 
 <p align="center">

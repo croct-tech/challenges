@@ -9,10 +9,6 @@
 </p>
 <p align="center">
     <img alt="Language" src="https://img.shields.io/badge/language-PHP-blue" />
-    <img alt="Build" src="https://img.shields.io/badge/build-passing-green" />
-    <img alt="Coverage" src="https://img.shields.io/badge/coverage-100%25-green" />
-    <img alt="Maintainability" src="https://img.shields.io/badge/maintainability-100-green" />
-    <img alt="License" src="https://img.shields.io/badge/license-proprietary-lightgrey" />
     <br />
     <br />
     <a href="https://github.com/croct-tech/challenges/releases">📦 Releases</a>

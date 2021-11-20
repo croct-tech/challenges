@@ -13,11 +13,6 @@ export class Container {
 
         app.use(cookieParser());
 
-        app.use('*', async (req, res, next) => {
-            console.log(req.path);
-            next();
-        });
-
         const routes = await this.getRoutes();
 
         routes.forEach(route => route.attach(app));

@@ -8,7 +8,7 @@ use Psr\Http\Message\RequestFactoryInterface as RequestFactory;
 use Psr\Http\Message\RequestInterface as Request;
 use Psr\Http\Message\ResponseInterface as Response;
 
-final class CroctClient
+final class CroctClient implements PersonalizationClient
 {
     private const TOKEN_ENDPOINT = 'https://api.croct.io/token/';
 
@@ -26,22 +26,12 @@ final class CroctClient
 
     private RequestFactory $requestFactory;
 
-    public function __construct(string $apiKey, HttpClient $client, RequestFactory $requestFactory)
-    {
+    public function __construct(string $apiKey, HttpClient $client, RequestFactory $requestFactory) {
         $this->apiKey = $apiKey;
         $this->client = $client;
         $this->requestFactory = $requestFactory;
     }
 
-    /**
-     * Issues a new token.
-     *
-     * @param string|null $userId The ID of the user who is the subject of the token or null if the user is anonymous.
-     *
-     * @return string The token.
-     *
-     * @throws CroctException if an error occurs while issuing the token.
-     */
     public function issueToken(string $userId = null): string
     {
         $response = $this->send(
@@ -50,7 +40,7 @@ final class CroctClient
         );
 
         if ($response->getStatusCode() !== 200) {
-            throw new CroctException('Failed to issue token.');
+            throw new PersonalizationClientException('Failed to issue token.');
         }
 
         $body = \json_decode($response->getBody()->getContents(), true);
@@ -58,16 +48,6 @@ final class CroctClient
         return $body['token'];
     }
 
-    /**
-     * Evaluates the given expression.
-     *
-     * @param string $expression The expression to evaluate.
-     * @param string $token      The token to use for the evaluation.
-     *
-     * @return mixed The result of the evaluation.
-     *
-     * @throws CroctException if an error occurs while evaluating the expression.
-     */
     public function evaluate(string $expression, string $token): mixed
     {
         $response = $this->send(
@@ -80,7 +60,7 @@ final class CroctClient
         );
 
         if ($response->getStatusCode() !== 200) {
-            throw new CroctException('Failed to issue token.');
+            throw new PersonalizationClientException('Failed to issue token.');
         }
 
         return \json_decode($response->getBody()->getContents(), true);
@@ -101,14 +81,14 @@ final class CroctClient
     }
 
     /**
-     * @throws CroctException
+     * @throws PersonalizationClientException
      */
     private function send(Request $request): Response
     {
         try {
             return $this->client->sendRequest($request);
         } catch (ClientException $exception) {
-            throw new CroctException($exception->getMessage(), $exception->getCode(), $exception);
+            throw new PersonalizationClientException($exception->getMessage(), $exception->getCode(), $exception);
         }
     }
 }

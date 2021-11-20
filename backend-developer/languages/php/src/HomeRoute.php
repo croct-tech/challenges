@@ -24,7 +24,7 @@ final class HomeRoute implements RequestHandler
 
     public function __construct(
         string $template,
-        CroctClient $client,
+        PersonalizationClient $client,
         ?ResponseFactory $responseFactory = null,
         ?StreamFactory $streamFactory = null
     ) {
@@ -39,7 +39,7 @@ final class HomeRoute implements RequestHandler
         try {
             $token = $this->getToken($request);
             $persona = $this->client->evaluate("user's persona", $token);
-        } catch (CroctException $exception) {
+        } catch (PersonalizationClientException $exception) {
             return $this->responseFactory->createResponse(500);
         }
 
@@ -55,7 +55,7 @@ final class HomeRoute implements RequestHandler
     }
 
     /**
-     * @throws CroctException if an unexpected error occurs
+     * @throws PersonalizationClientException if an unexpected error occurs
      */
     private function getToken(Request $request): string {
         return $request->getCookieParams()[self::TOKEN_COOKIE] ?? $this->client->issueToken();

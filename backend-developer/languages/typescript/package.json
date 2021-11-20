@@ -12,7 +12,6 @@
     "start": "node build/run.js",
     "build": "tsc",
     "dev": "ts-node-dev src/run.ts",
-    "test": "ts-node src/personalization/croct.ts"
   },
   "keywords": [],
   "author": "",

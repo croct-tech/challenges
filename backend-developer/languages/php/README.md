@@ -27,7 +27,9 @@
 This application is a landing page that shows personalized content based on the user's persona using 
 Croct's server-side personalization capabilities.
 
-![Screenshot](https://user-images.githubusercontent.com/943036/142742059-458e98c6-6cb3-4e80-b928-505525673ecd.png)
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/943036/142742098-f133ee1e-bbd5-4661-bb4a-5cf432126765.png" alt="Screenshot" width="600"/>
+</p>
 
 ## Installation
 

@@ -40,14 +40,24 @@ export class Container {
         if (this.personalizationClient === undefined) {
             this.personalizationClient = new CroctClient({
                 appId: 'f140d279-57c0-426a-9800-634a05d395d6',
-                apiKey: 'bb90592e-f437-4603-896a-854b7266f734',
+                apiKey: requireEnv('CROCT_API_KEY'),
             });
         }
 
-        return this.personalizationClient!;
+        return this.personalizationClient;
     }
 
     private async getHomeTemplate(): Promise<string> {
         return readFile('public/index.html', 'utf8');
     }
+}
+
+function requireEnv(name: string): string {
+    const value = process.env[name];
+
+    if (value === undefined) {
+        throw new Error(`Environment variable ${name} is not set`);
+    }
+
+    return value;
 }

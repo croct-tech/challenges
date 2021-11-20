@@ -36,13 +36,13 @@ Croct's server-side personalization capabilities.
 To run the application, clone the repository using the following command:
 
 ```sh
-git clone https://github.com/croct-tech/challenges.git croct-challenge
+git clone https://github.com/croct-tech/challenges.git croct-challenges
 ```
 
 Then, enter the created cloned directory:
 
 ```sh
-cd croct-challenge/backend-developer/languages/php
+cd croct-challenges/backend-developer/languages/php
 ```
 
 Run the following command to install the service dependencies:

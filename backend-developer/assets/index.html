@@ -9,6 +9,8 @@
         content="Example of how to use Croct to personalize content on the server-side."
     />
     <title>Croct | Server-side Evaluation Example</title>
+    <script src="https://cdn.croct.io/js/v1/lib/plug.js?appId=f140d279-57c0-426a-9800-634a05d395d6"></script>
+    <script>croct.plug({debug: true, token: '%token%'});</script>
 </head>
 <body>
     <div class="container">
@@ -24,7 +26,7 @@
                             <option value="default">👤 Default</option>
                             <option value="marketer">👩‍💻 Marketer</option>
                             <option value="growth-hacker">🚀 Growth Hacker</option>
-                            <option value="developer">🦸‍♂ Developer</option>
+                            <option value="developer">🦸 Developer</option>
                         </select>
                     </label>
                     <svg viewBox="0 0 8 6" width="8" height="6" fill="none" class="icon-arrow">
@@ -41,26 +43,29 @@
         </header>
         <div class="content">
             <div class="hero">
-                <h1>{title}</h1>
+                <h1>%title%</h1>
                 <p class="subtitle">
-                    {subtitle}
+                    %subtitle%
                 </p>
-                <a href={cta.link} class="cta">{cta.label}</a>
+                <a href=%cta.link% class="cta">%cta.label%</a>
             </div>
         </div>
     </div>
 
     <script>
         const selector = document.getElementById('persona-selector');
-        const url = new URL(window.location);
-
-        if (url.searchParams.has('persona')) {
-            selector.value = url.searchParams.get('persona');
-        }
+        selector.value = '%persona%';
 
         selector.addEventListener('change', (event) => {
-            url.searchParams.set('persona', event.target.value);
-            window.location = url.toString();
+            const patch = croct.user.edit();
+
+            if (event.target.value === 'default') {
+                patch.unset('custom.persona');
+            } else {
+                patch.set('custom.persona', event.target.value)
+            }
+
+            patch.save().then(() => setTimeout(() => window.location = window.location.href, 500));
         });
     </script>
 </body>

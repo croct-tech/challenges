@@ -3,10 +3,10 @@
 require_once __DIR__ . '/../vendor/autoload.php';
 
 (function() {
-    $apiKey = \getenv('API_KEY');
+    $apiKey = \getenv('CROCT_API_KEY');
 
     if (!\is_string($apiKey)) {
-        exit('Environment variable API_KEY is not set.');
+        exit('Environment variable CROCT_API_KEY is not set.');
     }
 
     $requestFactory = new \Laminas\Diactoros\RequestFactory();
@@ -14,9 +14,9 @@ require_once __DIR__ . '/../vendor/autoload.php';
     $streamFactory = new \Laminas\Diactoros\StreamFactory();
 
     (new \Laminas\HttpHandlerRunner\RequestHandlerRunner(
-        new \Croct\Challenge\HomeRoute(
+        new \Croct\Challenge\Route\HomeRoute(
             \file_get_contents(__DIR__ . '/../template/home.html'),
-            new \Croct\Challenge\CroctClient(
+            new \Croct\Challenge\Personalization\CroctClient(
                 $apiKey,
                 new \Http\Client\Curl\Client(
                     $responseFactory,

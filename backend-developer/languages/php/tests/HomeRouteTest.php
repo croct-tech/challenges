@@ -5,7 +5,7 @@ namespace Croct\Challenge;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @coversDefaultClass \Croct\Challenge\HomeRoute
+ * @coversDefaultClass \Croct\Challenge\Route\HomeRoute
  */
 final class HomeRouteTest extends TestCase
 {

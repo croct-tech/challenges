@@ -1,6 +1,6 @@
 <?php
 
-namespace Croct\Challenge;
+namespace Croct\Challenge\Personalization;
 
 class PersonalizationClientException extends \Exception
 {

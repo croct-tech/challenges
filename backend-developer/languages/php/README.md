@@ -50,9 +50,21 @@ Run the following command to install the service dependencies:
 composer install
 ```
 
-## Usage
+## Running the application
 
-Run the following command to start the built-in web server:
+Before running the application, you need to set the following environment variable:
+
+```sh
+export CROCT_API_KEY=<your-api-key>
+```
+
+If you don't have an API key, you can use the sandbox API key:
+
+```sh
+export CROCT_API_KEY=11111111111111-1111-1111-1111-111111111111
+```
+
+All set up! Now, run the following command to run the application:
 
 ```sh
 composer start

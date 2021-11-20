@@ -1,6 +1,6 @@
 <?php
 
-namespace Croct\Challenge;
+namespace Croct\Challenge\Personalization;
 
 use Psr\Http\Client\ClientExceptionInterface as ClientException;
 use Psr\Http\Client\ClientInterface as HttpClient;
@@ -60,7 +60,7 @@ final class CroctClient implements PersonalizationClient
         );
 
         if ($response->getStatusCode() !== 200) {
-            throw new PersonalizationClientException('Failed to issue token.');
+            throw new PersonalizationClientException('Failed to evaluate expression.');
         }
 
         return \json_decode($response->getBody()->getContents(), true);

@@ -12,7 +12,7 @@ final class CroctClient implements PersonalizationClient
 {
     private const TOKEN_ENDPOINT = 'https://api.croct.io/token/';
 
-    private const EVALUATION_ENDPOINT = 'https://api.croct.io//session/web/evaluate';
+    private const EVALUATION_ENDPOINT = 'https://api.croct.io/session/web/evaluate';
 
     private const APP_ID_HEADER = 'X-App-Id';
 

@@ -2,11 +2,11 @@ import * as cookieParser from 'cookie-parser';
 import {readFile} from 'fs/promises';
 import * as express from 'express';
 import {CroctClient} from './personalization/croct';
-import {Personalization} from './personalization/personalization';
+import {PersonalizationClient} from './personalization/personalization';
 import {HomePageRoute, Route} from './route';
 
 export class Container {
-    private personalizationClient?: Personalization;
+    private personalizationClient?: PersonalizationClient;
 
     public async getApplication(): Promise<express.Application> {
         const app = express();
@@ -36,12 +36,9 @@ export class Container {
         return 'croctToken';
     }
 
-    private getClient(): Personalization {
+    private getClient(): PersonalizationClient {
         if (this.personalizationClient === undefined) {
-            this.personalizationClient = new CroctClient({
-                appId: 'f140d279-57c0-426a-9800-634a05d395d6',
-                apiKey: requireEnv('CROCT_API_KEY'),
-            });
+            this.personalizationClient = new CroctClient(requireEnv('CROCT_API_KEY'));
         }
 
         return this.personalizationClient;

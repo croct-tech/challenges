@@ -1,16 +1,16 @@
 import {Request, Response} from 'express';
-import {Personalization} from '../personalization/personalization';
+import {PersonalizationClient} from '../personalization/personalization';
 import {Route, Router} from './route';
 
 export class HomePageRoute implements Route {
-    private readonly personalizationClient: Personalization;
+    private readonly personalizationClient: PersonalizationClient;
 
     private readonly cookieName: string;
 
     private readonly template: string;
 
     public constructor(
-        personalizationClient: Personalization,
+        personalizationClient: PersonalizationClient,
         cookieName: string,
         template: string,
     ) {

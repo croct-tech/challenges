@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "incremental": true,
+    "module": "CommonJS",
+    "rootDir": "./src",
+    "outDir": "./build",
+    "declaration": false,
+    "sourceMap": true,
+    "removeComments": true,
+    "esModuleInterop": false,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true
+  },
+  "exclude": [
+    "test/**"
+  ],
+}

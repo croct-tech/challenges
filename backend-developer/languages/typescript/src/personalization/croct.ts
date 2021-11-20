@@ -30,7 +30,6 @@ export class CroctClient implements PersonalizationClient {
 
         const response = await this.axiosClient.get(url.toString(), {
             headers: {
-                'X-Api-Key': this.apiKey,
                 'X-App-Id': CroctClient.getAppId(token),
                 'X-Token': token,
             },

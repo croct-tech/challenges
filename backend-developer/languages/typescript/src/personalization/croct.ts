@@ -1,29 +1,25 @@
 import axiosDefault, {AxiosError, AxiosInstance} from 'axios';
-import {PersonalizationClient} from './personalizationClient';
+import {Personalization} from './personalization';
 
-export class CroctClient implements PersonalizationClient {
+export class CroctClient implements Personalization {
     private readonly appId: string;
 
     private readonly apiKey: string;
 
     private readonly axiosClient: AxiosInstance;
 
-    private readonly croctEndpoint: string;
-
     public constructor(options: {
         appId: string,
         apiKey: string,
-        croctEndpoint?: string,
         axiosClient?: AxiosInstance
     }) {
         this.appId = options.appId;
         this.apiKey = options.apiKey;
-        this.croctEndpoint = options.croctEndpoint || 'https://api.croct.io';
         this.axiosClient = options.axiosClient ?? axiosDefault;
     }
 
-    public async createSessionToken(userId: string = ''): Promise<string> {
-        const response = await this.axiosClient.get(`${this.croctEndpoint}/token/${userId}`, {
+    public async issueToken(userId: string = ''): Promise<string> {
+        const response = await this.axiosClient.get(`https://api.croct.io/token/${userId}`, {
             headers: {
                 'X-Api-Key': this.apiKey,
             },
@@ -33,7 +29,7 @@ export class CroctClient implements PersonalizationClient {
     }
 
     public async evaluate<T>(expression: string, token: string): Promise<T> {
-        const url = new URL(`${this.croctEndpoint}/session/web/evaluate`);
+        const url = new URL(`https://api.croct.io/session/web/evaluate`);
 
         url.searchParams.set('expression', expression);
 
@@ -43,14 +39,14 @@ export class CroctClient implements PersonalizationClient {
                 'X-App-Id': this.appId,
                 'X-Token': token,
             },
-        }).catch((error: AxiosError) => {
-            if (error.response === undefined) {
-                throw error;
-            }
-
-            return error.response;
         });
 
         return response.data;
+    }
+}
+
+export class PersonalizationClientError extends Error {
+    public constructor(message: string) {
+        super(message);
     }
 }

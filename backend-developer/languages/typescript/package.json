@@ -1,7 +1,8 @@
 {
   "name": "croct-challenge",
   "version": "1.0.0",
-  "description": "Croct backend developer challenge in Typescript",
+  "description": "An example showing how to personalize content on the server-side using Croct.",
+  "homepage": "https://github.com/croct-tech/challenges",
   "repository": {
     "type": "git",
     "url": "https://github.com/croct-tech/challenges.git",
@@ -11,11 +12,15 @@
   "scripts": {
     "start": "node build/run.js",
     "build": "tsc",
-    "dev": "ts-node-dev src/run.ts",
+    "dev": "ts-node-dev src/run.ts"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Croct",
+    "email": "hello@croct.com",
+    "url": "https://github.com/croct-tech"
+  },
+  "license": "MIT",
   "devDependencies": {
     "@types/cookie-parser": "^1.4.2",
     "@types/express": "^4.17.13",

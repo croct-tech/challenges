@@ -1,16 +1,16 @@
 import {Request, Response} from 'express';
-import {PersonalizationClient} from '../personalization/personalizationClient';
+import {Personalization} from '../personalization/personalization';
 import {Route, Router} from './route';
 
 export class HomePageRoute implements Route {
-    private readonly personalizationClient: PersonalizationClient;
+    private readonly personalizationClient: Personalization;
 
     private readonly cookieName: string;
 
     private readonly template: string;
 
     public constructor(
-        personalizationClient: PersonalizationClient,
+        personalizationClient: Personalization,
         cookieName: string,
         template: string,
     ) {
@@ -34,7 +34,10 @@ export class HomePageRoute implements Route {
             ...this.getContent(persona)
         };
 
-        const renderedContent = this.template.replace(/%([\w.]+)%/g, (_, key) => templateValues[key]);
+        const renderedContent = Object.entries(templateValues).reduce(
+            (template, [key, value]) => template.replace(`%${key}%`, value),
+            this.template
+        )
 
         response.setHeader('Content-Type', 'text/html');
         response.end(renderedContent);
@@ -47,7 +50,7 @@ export class HomePageRoute implements Route {
             return cookie;
         }
 
-        const token = await this.personalizationClient.createSessionToken();
+        const token = await this.personalizationClient.issueToken();
 
         response.cookie(this.cookieName, token);
 

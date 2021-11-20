@@ -1,0 +1,51 @@
+{
+  "name": "croct/project-php",
+  "type": "library",
+  "description": "An example showing how to personalize content on the server-side using Croct.",
+  "keywords": [
+    "croct",
+    "server-side",
+    "personalization"
+  ],
+  "homepage": "https://github.com/croct-tech/challenges",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Croct",
+      "email": "hello@croct.com",
+      "homepage": "https://github.com/croct-tech"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "php-curl-class/php-curl-class": "^9.4",
+    "laminas/laminas-diactoros": "^2.8",
+    "psr/http-server-handler": "^1.0",
+    "psr/http-client": "^1.0",
+    "laminas/laminas-httphandlerrunner": "^2.1",
+    "php-http/curl-client": "^2.2",
+    "guzzlehttp/psr7": "^2.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Croct\\Challenge\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Croct\\Challenge\\Tests\\": "tests/"
+    }
+  },
+  "prefer-stable": true,
+  "scripts": {
+    "test": [
+      "phpunit"
+    ],
+    "start": [
+      "php -S localhost:8000 -t public/"
+    ]
+  }
+}

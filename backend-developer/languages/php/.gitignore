@@ -1,0 +1,8 @@
+.cache
+.phpunit.result.cache
+vendor
+phpcs.xml
+phpcs.log
+phpstan.neon
+phpunit.xml
+coverage.xml

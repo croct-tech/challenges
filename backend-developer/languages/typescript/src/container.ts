@@ -3,7 +3,7 @@ import {readFile} from 'fs/promises';
 import * as express from 'express';
 import {CroctClient} from './personalization/croct';
 import {Personalization} from './personalization/personalization';
-import {HomePageRoute, Route} from './routes';
+import {HomePageRoute, Route} from './route';
 
 export class Container {
     private personalizationClient?: Personalization;

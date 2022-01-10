@@ -47,6 +47,10 @@ Write the documentation that will walk developers through the process of integra
 - [**Frontend Developer**](/frontend-developer)  
 Build a React component using Typescript to let users upload and crop avatars.
 
+- [**Backend Developer**](/backend-developer)
+  - [Stream Application](/backend-developer/stream-application)  
+    Build a stream application to detect the geographic location of a user.
+
 - [**Devops**](/devops)  
 Create a Terraform module to deploy a Kafka cluster, a consumer and a producer on an existing Kubernetes cluster using the Strimzi Kafka operator.
 

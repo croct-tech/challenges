@@ -18,14 +18,16 @@
 
 As a backend developer, your task is to create a standalone Kafka stream application that translates IPs into geographical locations using the IPStack free API.
 
-![Topology](https://user-images.githubusercontent.com/943036/148793496-5f73bd8f-f515-4e28-8fa6-9fbc88aa0ca4.png)
+<p align="center">
+  <img alt="Topology" src="https://user-images.githubusercontent.com/943036/148793496-5f73bd8f-f515-4e28-8fa6-9fbc88aa0ca4.png" />
+</p>
 
 The schema of the input topic is as follows:
 - **Client ID**  
   The ID of the client that emitted the event.
 - **Timestamp**  
   The time in milliseconds since the UNIX epoch.
-- *IP*  
+- **IP**  
   The IP address of the user.
 
 For the output topic, the schema should be:

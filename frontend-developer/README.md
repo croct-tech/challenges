@@ -24,7 +24,6 @@ As a frontend developer, your task is to create a React component using Typescri
     <img src="https://user-images.githubusercontent.com/943036/132790508-1d0b64be-9fc8-4cfc-8e12-a3066d373008.png" alt="Croct" width="500"/>
 </p>
 
-
 ## Requirements
 
 The `<AvatarUpload />` component should allow users to upload images to make it easier for them to recognize key interface elements related to an organization.

@@ -47,7 +47,7 @@ Write the documentation that will walk developers through the process of integra
 - [**Frontend Developer**](/frontend-developer)  
 Build a React component using Typescript to let users upload and crop avatars.
 
-- [**Backend Developer**](/backend-developer)  
+- [**Backend Developer**](/backend-developer)
   - [Stream Application](/backend-developer/stream-application)  
     Build a stream application to detect the geographic location of a user.
 

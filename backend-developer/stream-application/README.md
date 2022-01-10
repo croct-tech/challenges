@@ -36,7 +36,7 @@ For the output topic, the schema should be:
   The ID of the client that emitted the event.
 - **Timestamp**  
   The time in milliseconds since the UNIX epoch.
-- **IP**
+- **IP**  
   The IP address of the user.
 - **Latitude**  
   The latitude coordinate of the user.

@@ -16,7 +16,8 @@
 
 # Challenge
 
-As a backend developer, your task is to create a standalone Kafka stream application that translates IPs into geographical locations using the IPStack free API.
+As a backend developer, your task is to create a standalone [Kafka stream](https://kafka.apache.org/documentation/streams/) 
+application that translates IPs into geographical locations using the [IPStack](https://ipstack.com/) free API.
 
 <p align="center">
   <img alt="Topology" src="https://user-images.githubusercontent.com/943036/148793496-5f73bd8f-f515-4e28-8fa6-9fbc88aa0ca4.png" />

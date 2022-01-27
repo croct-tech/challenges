@@ -54,9 +54,9 @@ For the output topic, the schema should be:
 
 The application should meet the following requirements:
 
-- It must be standalone, meaning you should not use frameworks except the Kafka Streams, like Spring.
-- It should produce at most one localization per client and IP within a time window of 30 minutes.
-- Unit and integration tests covering all the requirements
+- It must be standalone, meaning you should not use frameworks like Spring, for example
+- It should produce at most one localization per client and IP within a time window of 30 minutes
+- Unit and integration tests covering all the requirements.
 
 You can also use open-source libraries available in the community to help you with the project. Why reinvent the wheel, right? 😜
 

@@ -20,13 +20,13 @@ As a Customer Success Engineer, you will be responsible for helping our customer
 
 ## Requirements
 
-In this challenge, the marketing team has asked you to implement a personalized banner on a webpage using our personalization management system (PMS). The content should change dynamically based on the user's persona.
+In this challenge, the marketing team has asked you to implement a personalized banner on a webpage using our Personalization Management System (PMS). The content should change dynamically based on the user's persona.
 
 ![Example](https://user-images.githubusercontent.com/943036/116586841-44833900-a8f0-11eb-8d32-acec2eacee01.png)
 
-Using Croct, we can do this by using slots and to help you with that, we've set up a sandbox account with all you need.
+With Croct, we can do this by using slots and to help you with that, we've set up a sandbox account with all you need.
 
-With our configurations, the PMS will decide which content to show to each user based on the slot's personalization rules and the user's context. Notice that there's no logic on the client-side, meaning that the marketing team can freely change the slot content as they need without requiring a new deployment.
+The PMS decides which content to show to each user based on the slot's personalization rules and the user's context. Notice that there's no logic on the client-side, meaning that the marketing team can freely change the slot content as they need without requiring a new deployment.
 
 The slot ID for your implementation is `home-banner` and it has the following structure:
 

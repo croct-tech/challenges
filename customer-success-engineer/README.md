@@ -49,6 +49,7 @@ The four available content and the respective personalization rule are:
 
 ## Further Information
 
+- The app ID for the sandbox account is `00000000-0000-0000-0000-000000000000`
 - You can implement the slot by using our plug for [JS](https://github.com/croct-tech/plug-js/) or [React](https://github.com/croct-tech/plug-react):
     - If you choose the React plug, you should use the [Slot component](https://github.com/croct-tech/plug-react#using-slots) 
     - If you choose the JS plug, you should use the [fetch method](https://github.com/croct-tech/plug-js/blob/master/docs/plug.md#fetch)

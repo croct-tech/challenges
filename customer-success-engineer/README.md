@@ -27,11 +27,8 @@ deploying a new version on every change.
 
 ![Example](https://user-images.githubusercontent.com/943036/116586841-44833900-a8f0-11eb-8d32-acec2eacee01.png)
 
-With Croct, we can do this by using slots and to help you with that, we've set up a sandbox account with all you need.
-
-The PMS decides which content to show to each user based on the slot's personalization rules and the user's context.
-Notice that there's no logic on the client-side, meaning that the marketing team can freely change the slot content as
-they need without requiring a new deployment.
+For cases like this, we recommend using the Slots feature. Using slots allows the marketing team to change the content
+or personalization rules whenever needed without touching the code, exactly as they requested.
 
 We've set up a sandbox account with all you need, including a slot with ID  `home-banner` and the following structure:
 
@@ -71,8 +68,8 @@ Here are some additional information you'll need to complete the integration:
   the [user profile patch section](https://github.com/croct-tech/plug-js/blob/master/docs/user.md#edit)
 - Feel free to design the functionality and UI/UX of the app as you want, but keep in mind we're only focused on the
   personalization implementation
-- There is no problem with using other libraries/frameworks. The objective here is to assess your technical
-  skills and understand how you deal with documentation
+- There is no problem with using other libraries/frameworks. The objective here is to assess your technical skills and
+  understand how you deal with documentation
 - If possible, test your application. We absolutely love well-written and tested code! 😍
 - If you have any questions, we're here to support you! Please reach us on the `#support` channel in
   the [Croct Community](https://croct.link/community).

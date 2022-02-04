@@ -23,7 +23,7 @@ Completing the challenge will require you to:
 
 - Create content for the following channels:
   - Croct Community (a Slack community of Croct's customers, developers and leads)
-  - Growth Slack communities
+  - Growth communities on Slack
   - Instagram
   - Twitter
   - Linkedin

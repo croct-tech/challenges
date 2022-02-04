@@ -24,7 +24,7 @@ As a motion-designer at Croct, you will:
     For example, imagine that a company wants to personalize a banner for pet parents who live in Florianopolis. Croct analyzes which people fit this audience and shows them the personalized variant.
 
     <p align="center">
-      <img src="Job%20position%20-%20Motion%20d58ac245d76d4b7abd31d2d0d2b226d6/Untitled.png" alt="Croct" width="500"/>
+      <img src="https://user-images.githubusercontent.com/38692064/152607242-3a5a927d-2ce9-44fa-85c7-04186fdad661.png" alt="Croct" width="500"/>
     </p>
 
     Cool huh? With Croct it's possible! To create these personalized experiences, you need to tell who you want to personalize for (Audience → Parents of Pet in Floripa), which place on your platform you would like to personalize (Slot → Home banner), and what content you would like to show to that audience (banner with a cute cat).
@@ -32,7 +32,7 @@ As a motion-designer at Croct, you will:
     Below is a diagram explaining how to create an experience in Croct:
 
     <p align="center">
-      <img src="Job%20position%20-%20Motion%20d58ac245d76d4b7abd31d2d0d2b226d6/Untitled%201.png" alt="Croct" width="500"/>
+      <img src="https://user-images.githubusercontent.com/38692064/152607341-a8abf9f4-e994-4557-a646-a8a67534aa70.png" alt="Croct" width="500"/>
     </p>
 
 ### Deliverable 1

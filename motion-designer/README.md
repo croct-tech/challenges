@@ -5,6 +5,7 @@
     <br />
     <strong>Motion designer</strong>
     <br />
+    Create an animation that explains how personalization in Croct works
 </p>
 
 ### Introduction

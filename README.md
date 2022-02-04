@@ -60,8 +60,12 @@ Create a personalized application using Croct.
 - [**Web Designer**](/web-designer)  
 Design an Instagram post for a product campaign.
 
+- [**Motion designer**](/motion-designer)  
+Create an animation that explains how personalization in Croct works.
+
 - [**Content Strategist**](/content-strategist)  
 Write a blog post about progressive profiling.
 
 - [**Social Media Marketer**](/social-media-marketer)  
 Create copy for social media posts.
+

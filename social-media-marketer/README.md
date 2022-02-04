@@ -13,9 +13,9 @@
 As a Social Media Marketer, you will be responsible for creating content for social media and communities while 
 ensuring consistency across all company communication channels (blog, social media, website, sales materials, etc.).
 
-You received a [blog post about cohorts](https://docs.google.com/document/d/1ibzA32lye97b_88IKmJKMpg7mzo6IELRAsVPMORVsh0/edit?usp=sharing).
-Your task is to write copy to spread the content across the web. You should also document  the process you go through 
-to create these posts, from reading the blog post to writing the final drafts.
+The marketing team just published a new [blog post about cohorts](https://docs.google.com/document/d/1ibzA32lye97b_88IKmJKMpg7mzo6IELRAsVPMORVsh0/edit?usp=sharing).
+
+Your task is to write copy to spread the content across the web, documenting the process you went through, from reading the blog post to writing the final drafts.
 
 ## Requirements
 

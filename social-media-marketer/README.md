@@ -28,7 +28,7 @@ Completing the challenge will require you to:
   - Twitter
   - Linkedin
 - Write the document and the content in English 🇺🇸
-- Follow [our brand voice](https://croct.link/brand-voice)
+- Follow [our brand voice](https://croct.link/brand-voice).
 
 ## Deliverable
 

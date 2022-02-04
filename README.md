@@ -62,3 +62,6 @@ Design an Instagram post for a product campaign.
 
 - [**Content Strategist**](/content-strategist)  
 Write a blog post about progressive profiling.
+
+- [**Social Media Marketer**](/social-media-marketer)  
+Create copy for social media posts.

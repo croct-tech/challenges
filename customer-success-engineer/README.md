@@ -76,7 +76,16 @@ Here are some additional information you'll need to complete the integration:
 
 ### Important!
 
-If you receive the error `The fetch feature is currently available only to accounts participating in our Early-Access Program (EAP).(...)`, insert the tag `<script src="https://cdn.croct.io/js/v1/app/00000000-0000-0000-0000-000000000000/custom.js"></script>` before `croct.plug();`. This script is responsible for allow you to use `croct.fetch`.
+The `croct.fetch` API is currently in preview and is enabled only for our Early-Access Program participants.  
+If you receive the error `The fetch feature is currently available only to accounts participating in our Early-Access Program (EAP)`, insert the following tag in your `head` block before calling `croct.plug` to enable the EAP features:
+
+```html
+<head>
+    <script src="https://cdn.croct.io/js/v1/app/00000000-0000-0000-0000-000000000000/custom.js"></script>
+    <!-- The tag above should be before the following call -->
+    <script>croct.plug()</script>
+</head>
+```
 
 ## Deliverable
 

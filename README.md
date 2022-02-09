@@ -61,7 +61,7 @@ Create a personalized application using Croct.
 Design an Instagram post for a product campaign.
 
 - [**Content Strategist**](/content-strategist)  
-Write a blog post about progressive profiling.
+Write a blog post about privacy laws and data protection.
 
 - [**Social Media Marketer**](/social-media-marketer)  
 Create copy for social media posts.

@@ -56,7 +56,7 @@ Lastly, there are four contents, each corresponding to one of the following pers
 
 Here are some additional information you'll need to complete the integration:
 
-- The app ID for the sandbox account is `00000000-0000-0000-0000-000000000000`
+- The app ID for the sandbox account is `00000000-0000-0000-0000-000000000000`.
 - You can implement the slot by using our plug for [JS](https://github.com/croct-tech/plug-js/)
   or [React](https://github.com/croct-tech/plug-react):
     - If you choose the React plug, you should use
@@ -73,6 +73,19 @@ Here are some additional information you'll need to complete the integration:
 - If possible, test your application. We absolutely love well-written and tested code! 😍
 - If you have any questions, we're here to support you! Please reach us on the `#support` channel in
   the [Croct Community](https://croct.link/community).
+
+### Important!
+
+The `croct.fetch` API is currently in preview and is enabled only for our Early-Access Program participants.  
+If you receive the error _"The fetch feature is currently available only to accounts participating in our Early-Access Program (EAP)"_, insert the following tag in your `head` block before calling `croct.plug` to enable the EAP features:
+
+```html
+<head>
+    <script src="https://cdn.croct.io/js/v1/app/00000000-0000-0000-0000-000000000000/custom.js"></script>
+    <!-- The tag above should be before the following call -->
+    <script>croct.plug()</script>
+</head>
+```
 
 ## Deliverable
 

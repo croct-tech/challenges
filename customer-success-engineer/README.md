@@ -77,7 +77,7 @@ Here are some additional information you'll need to complete the integration:
 ### Important!
 
 The `croct.fetch` API is currently in preview and is enabled only for our Early-Access Program participants.  
-If you receive the error `The fetch feature is currently available only to accounts participating in our Early-Access Program (EAP)`, insert the following tag in your `head` block before calling `croct.plug` to enable the EAP features:
+If you receive the error _"The fetch feature is currently available only to accounts participating in our Early-Access Program (EAP)"_, insert the following tag in your `head` block before calling `croct.plug` to enable the EAP features:
 
 ```html
 <head>

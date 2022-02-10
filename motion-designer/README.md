@@ -8,9 +8,8 @@
     Create an animation that explains how personalization in Croct works
 </p>
 
-### Introduction
+# Introduction
 
----
 
 As a motion-designer at Croct, you will: 
 
@@ -36,11 +35,11 @@ As a motion-designer at Croct, you will:
       <img src="https://user-images.githubusercontent.com/38692064/152607341-a8abf9f4-e994-4557-a646-a8a67534aa70.png" alt="Croct" width="500"/>
     </p>
 
-### Deliverable 1
+## Deliverable 1
 
----
 
-**Briefing**
+**Briefing:**
+
 Create an animation that briefly explains how personalization in Croct works. 
 
 Here is the animation script:
@@ -55,67 +54,63 @@ Here is the animation script:
 
 5) Show that only users who fit that audience are seeing that experience.
 
-- Specification
+<details>
+  <summary>Specification</summary>
+  
+   - Frame width → 720px
+   - Frame height → open for suggestions
+   - Animation time → Maximum of 10s
+   - Appearance → Should use Croct's branding
     
-    **Frame width →** 720px
+</details>    
+<details>
+  <summary>References</summary>
+  
+  - [Strategic Product Management Platform](https://airfocus.com/)
+  - [Storybook: UI component explorer for frontend developers](https://storybook.js.org/)
+  - [Segment | #1 CDP to Manage Customer Data](https://segment.com/#:~:text=Together%2C%20our-,products,-create%20your%20ultimate)
     
-    **Frame height →** open for suggestions
-    
-    **Animation time →** Maximum of 10s
-    
-    **Appearance →** Should use Croct's branding
-    
-- References
-    
-    [Strategic Product Management Platform](https://airfocus.com/)
-    
-    [Storybook: UI component explorer for frontend developers](https://storybook.js.org/)
-    
-    [Segment | #1 CDP to Manage Customer Data](https://segment.com/#:~:text=Together%2C%20our-,products,-create%20your%20ultimate)
-    
+</details>   
 
  **Document format →** Editable After Effect file  + mp4 animation
 
-### Deliverable 2
 
----
+## Deliverable 2
+
 
 Having a critical view is a key trait of a Crocter. That's why we'd like you to choose one of the tools below and write a critical review about the use of motion on their platforms:
 
 - Storybook: [site](https://storybook.js.org/) and [blog](https://storybook.js.org/blog)
 - Segment: [site](https://segment.com/)
 - Figma: [site](https://www.figma.com/)
-- Specification
+
+<details>
+  <summary>Specification</summary>
+  
+   - Language → English
     
-    Language **→** English
+   - Maximum length → 5 pages
     
-    Maximum length **→** 5 pages
-    
-    Covered topics **→** You are free to choose the topics that you find most interesting
-    
+   - Covered topics → You are free to choose the topics that you find most interesting
+     
+</details>
 
  **Document format →** PDF
 
-### Requirements
-
----
+## Requirements
 
 - Follow brand consistency
 - Document the analysis in English 🇺🇸
 
-### Support materials
-
----
+## Support materials
 
 - [Croct's brand voice](https://docs.google.com/presentation/d/1aZxXDtMiSZLfI5FIW360Z-xT8V1SVk8Nz6KIxLDBWiI/edit)
-- [Instagram da Croct](https://www.instagram.com/croct/)
-- [Landing page da Croct](https://croct.com/)
-- [Blog da Croct](https://blog.croct.dev/)
-
----
+- [Croct's Instagram](https://www.instagram.com/croct/)
+- [Croct's Landing page](https://croct.com/)
+- [Croct's Blog](https://blog.croct.dev/)
 
 <aside>
-⚠️ We won't use any produced graphic or textual material unless we have a specific agreement with the candidate.
+ ⚠️  We won't use any produced graphic or textual material unless we have a specific agreement with the candidate.
 
 </aside>
 

@@ -47,17 +47,19 @@ Here is the animation script:
 4. Show the experience going live 
 5. Show that only users who fit that audience are seeing that experience.
 
-- Specification
-   - Frame width → 720px
-   - Frame height → open for suggestions
-   - Animation time → Maximum of 10s
-   - Appearance → Should use Croct's branding
-   - Document format → Editable After Effect file  + mp4 animation
+### Specification
 
-- References
-  - [Strategic Product Management Platform](https://airfocus.com/)
-  - [Storybook: UI component explorer for frontend developers](https://storybook.js.org/)
-  - [Segment | #1 CDP to Manage Customer Data](https://segment.com/#:~:text=Together%2C%20our-,products,-create%20your%20ultimate) 
+- Frame width → 720px
+- Frame height → open for suggestions
+- Animation time → Maximum of 10s
+- Appearance → Should use Croct's branding
+- Document format → Editable After Effect file  + mp4 animation
+
+### References
+
+- [Strategic Product Management Platform](https://airfocus.com/)
+- [Storybook: UI component explorer for frontend developers](https://storybook.js.org/)
+- [Segment | #1 CDP to Manage Customer Data](https://segment.com/#:~:text=Together%2C%20our-,products,-create%20your%20ultimate) 
 
 ## Deliverable 2
 
@@ -67,11 +69,12 @@ Having a critical view is a key trait of a Crocter. That's why we'd like you to 
 - Segment: [site](https://segment.com/)
 - Figma: [site](https://www.figma.com/)
 
-- Specification
-   - Language → English
-   - Maximum length → 5 pages
-   - Covered topics → You are free to choose the topics that you find most interesting
-   - Document format → PDF
+### Specification
+
+- Language → English
+- Maximum length → 5 pages
+- Covered topics → You are free to choose the topics that you find most interesting
+- Document format → PDF
     
 ## Requirements
 

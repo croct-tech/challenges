@@ -52,7 +52,7 @@ Here is the animation script:
    - Frame height → open for suggestions
    - Animation time → Maximum of 10s
    - Appearance → Should use Croct's branding
-   -  **Document format →** Editable After Effect file  + mp4 animation
+   - Document format → Editable After Effect file  + mp4 animation
 
 - References
   - [Strategic Product Management Platform](https://airfocus.com/)
@@ -71,7 +71,7 @@ Having a critical view is a key trait of a Crocter. That's why we'd like you to 
    - Language → English
    - Maximum length → 5 pages
    - Covered topics → You are free to choose the topics that you find most interesting
-   - **Document format →** PDF
+   - Document format → PDF
     
 ## Requirements
 

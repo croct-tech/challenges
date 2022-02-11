@@ -36,6 +36,7 @@ Below is a diagram explaining how to create an experience in Croct:
 </p>
 
 ## Deliverable 1
+
 Create an animation that briefly explains how personalization in Croct works. 
 
 Here is the animation script:

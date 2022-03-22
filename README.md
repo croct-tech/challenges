@@ -63,8 +63,12 @@ Design an Instagram post for a product campaign.
 - [**Motion designer**](/motion-designer)  
 Create an animation that explains how personalization in Croct works.
 
-- [**Content Strategist**](/content-strategist)  
-Write a blog post about privacy laws and data protection.
+- [**Content Strategist**](/content-strategist)
+  - [Privacy Laws](/content-strategist/privacy-laws)  
+    Write a blog post about privacy laws and data protection.
+
+  - [Core Web Vitals](/content-strategist/core-web-vitals)  
+    Write a blog post about the Core Web Vitals.
 
 - [**Social Media Marketer**](/social-media-marketer)  
 Create copy for social media posts.

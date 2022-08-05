@@ -8,7 +8,6 @@
     A Kafka Streams application that detects the visitor's location based on the IP address.
 </p>
 <p align="center">
-    <img alt="Language" src="https://img.shields.io/badge/language-Java-blue" />
     <img alt="Build" src="https://img.shields.io/badge/build-passing-green" />
     <img alt="Coverage" src="https://img.shields.io/badge/coverage-100%25-green" />
     <img alt="Maintainability" src="https://img.shields.io/badge/maintainability-100-green" />

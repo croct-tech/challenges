@@ -3,16 +3,16 @@
       <img src="https://cdn.croct.io/brand/logo/repo-icon-green.svg" alt="Croct" height="80"/>
     </a>
     <br />
-    <strong>Blog Post Improvements</strong>
+    <strong>Blog Post Review</strong>
     <br />
-    Suggest adjustments to our blog posts
+   Review and improve a blog post.
 </p>
 
 # Challenge
 
 As a Content Editor, you will be responsible for ensuring content is concise, straight to the point, and resonates with our audiences.
 
-You received two blog posts written by one of our freelance writers. One is about [user-generated content](https://docs.google.com/document/d/1Xi2kG4H6_Ou0SzdsugWMRnbWsZmfWqerrXXIWUefUOE/edit), and the other is about how [machine learning](https://docs.google.com/document/d/1cXpSNl-0lnS1Le_Kf_0qJfCM7xw4Cxqo/edit#heading=h.gjdgxs) can leverage personalization marketing.
+You received two blog posts written by one of our freelance writers. One is about [user-generated content](https://docs.google.com/document/d/160yeu9ygOQFk6cGWMLRwvua6DSsB1--SLuykjel5suY/edit?usp=sharing), and the other is about how [machine learning](https://docs.google.com/document/d/1zlcr0X6Xf9-tx87wdwm06EBxvGK6DklTvUyT52LvRnk/edit?usp=sharing) can leverage personalization marketing.
 
 Your task is to make suggestions to improve both, so they have no grammatical errors or typos and follow [our brand voice guideliness](https://croct.link/brand-voice). Also, one of them was translated from Portuguese. Make sure that there isn't any sentence sounding literally translated since word-by-word translations may not make sense or sound natural compared to how native speakers would formulate it.
 
@@ -22,7 +22,7 @@ Your task is to make suggestions to improve both, so they have no grammatical er
 
 We strongly recommend you read other articles from our [blog](https://croct.com/blog) to get familiar with our writing style.
 
-To help you understand the changes we usually make, we also provide you with [previously reviewed](https://docs.google.com/document/d/1QhDgKheJak8htgUxjSZZD9zOP2_RfFWjEfmepv8Ezqk/edit) pieces of content with highlighted adjustments our content marketing team suggested.
+To help you understand the changes we usually make, we also provide you with [previously reviewed](https://docs.google.com/document/d/1ITny1TNSvEZ_9o2BK-B9ELjMJxRoTofMTaibFHQFk2Q/edit?usp=sharing) pieces of content with highlighted adjustments our content marketing team suggested.
 
 ## Deliverable
 

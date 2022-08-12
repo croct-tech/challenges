@@ -74,4 +74,4 @@ Create an animation that explains how personalization in Croct works.
 Create copy for social media posts.
 
 - [**Content Editor**](/content-editor)  
-  Blog Post Improvements
+  Review and improve a blog post.

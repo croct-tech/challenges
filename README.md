@@ -73,3 +73,5 @@ Create an animation that explains how personalization in Croct works.
 - [**Social Media Marketer**](/social-media-marketer)  
 Create copy for social media posts.
 
+- [**Blog Post Improvements**](/content-editor)  
+  Suggest adjustments to our blog posts

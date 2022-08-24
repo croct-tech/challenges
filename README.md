@@ -73,5 +73,8 @@ Create an animation that explains how personalization in Croct works.
 - [**Social Media Marketer**](/social-media-marketer)  
 Create copy for social media posts.
 
+- [**Marketing Intern**](/marketing-intern)  
+Create a newsletter email.
+
 - [**Content Editor**](/content-editor)  
-  Review and improve a blog post.
+Review and improve a blog post.

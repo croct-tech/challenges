@@ -24,9 +24,13 @@ We strongly recommend you read other articles from our [blog](https://croct.com/
 
 To help you understand the changes we usually make, we also provide you with [previously reviewed](https://docs.google.com/document/d/1ITny1TNSvEZ_9o2BK-B9ELjMJxRoTofMTaibFHQFk2Q/edit?usp=sharing) pieces of content with highlighted adjustments our content marketing team suggested.
 
+> ⚠️  We will assess your skills based on the final content we'll have after accepting each of your suggestions, so don't be afraid to make as many changes as you think are necessary for an excellent blog post.
+
 ## Deliverable
 
 Please send us the content and the document describing the steps to [jobs@croct.com](mailto:jobs@croct.com) in a
-Google Docs document, and we will reply to your email informing the next steps in the process.
+Google Docs document, and give editor access to [juliana@croct.com](mailto:juliana@croct.com) and 
+[mariana.bonanomi@croct.com](mailto:mariana.bonanomi@croct.com) – **only editors can visualize the changes 
+made in suggestion mode**.
 
 We will do our best to review your content and get back with feedback on the result as soon as possible.

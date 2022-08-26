@@ -29,6 +29,8 @@ Completing the challenge will require you to:
   - If you don't use an IDE, we suggest using the [MJML Live editor](https://mjml.io/try-it-live/)
 - Follow [our brand voice](https://croct.link/brand-voice).
 
+> ⚠️  **We don't require you have experience with MJML to work as marketing intern**. So if you are not familiar with it, it's okay to try to work with the template we provided you (we promise it is simple) and send us whatever you get by the end of the deadline. Feel free to study it on the internet. It might help you get along with the basics.
+
 ## Deliverable
 
 Please send us the MJML file and the document describing the steps to [jobs@croct.com](mailto:jobs@croct.com) in a

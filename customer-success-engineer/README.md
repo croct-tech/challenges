@@ -81,7 +81,6 @@ If you receive the error _"The fetch feature is currently available only to acco
 Program (EAP)"_, insert the following tag in your `head` block before calling `croct.plug` to enable the EAP features:
 
 ```html
-
 <head>
     <script src="https://cdn.croct.io/js/v1/app/00000000-0000-0000-0000-000000000000/custom.js"></script>
     <!-- The tag above should be before the following call -->

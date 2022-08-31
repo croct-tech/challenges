@@ -21,11 +21,11 @@ Supporting marketers and developers means being creative, thinking out of the bo
 
 ## Requirements
 
+![Example](https://user-images.githubusercontent.com/943036/116586841-44833900-a8f0-11eb-8d32-acec2eacee01.png)
+
 The marketing team has asked you to integrate a personalized banner on their website using our Personalization
 Management System (PMS). The ultimate goal is to dynamically change the content based on the user's persona without
 deploying a new version on every change.
-
-![Example](https://user-images.githubusercontent.com/943036/116586841-44833900-a8f0-11eb-8d32-acec2eacee01.png)
 
 For cases like this, we recommend using the Slots feature. Using slots allows the marketing team to change the content
 or personalization rules whenever needed without touching the code, exactly as they requested.

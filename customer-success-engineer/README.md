@@ -34,11 +34,13 @@ We've set up a sandbox account with all you need, including a slot with ID  `hom
 
 ```ts
 type HomeBanner = {
-    title: string,
-    subtitle: string,
-    cta: {
-        label: string,
-        link: string,
+    payload: {
+        title: string,
+        subtitle: string,
+        cta: {
+            label: string,
+            link: string,
+        },  
     },
 };
 ```

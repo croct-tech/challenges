@@ -21,11 +21,11 @@ Supporting marketers and developers means being creative, thinking out of the bo
 
 ## Requirements
 
+![Example](https://user-images.githubusercontent.com/943036/116586841-44833900-a8f0-11eb-8d32-acec2eacee01.png)
+
 The marketing team has asked you to integrate a personalized banner on their website using our Personalization
 Management System (PMS). The ultimate goal is to dynamically change the content based on the user's persona without
 deploying a new version on every change.
-
-![Example](https://user-images.githubusercontent.com/943036/116586841-44833900-a8f0-11eb-8d32-acec2eacee01.png)
 
 For cases like this, we recommend using the Slots feature. Using slots allows the marketing team to change the content
 or personalization rules whenever needed without touching the code, exactly as they requested.
@@ -71,15 +71,17 @@ Here are some additional information you'll need to complete the integration:
 - There is no problem with using other libraries/frameworks. The objective here is to assess your technical skills and
   understand how you deal with documentation
 - If possible, test your application. We absolutely love well-written and tested code! 😍
-- If you have any questions, we're here to support you! Please reach us on the `#support` channel in
+- If you have any questions, we're here to support you! Please reach us on the `#challenges` channel in
   the [Croct Community](https://croct.link/community).
 
 ### Important!
 
 The `croct.fetch` API is currently in preview and is enabled only for our Early-Access Program participants.  
-If you receive the error _"The fetch feature is currently available only to accounts participating in our Early-Access Program (EAP)"_, insert the following tag in your `head` block before calling `croct.plug` to enable the EAP features:
+If you receive the error _"The fetch feature is currently available only to accounts participating in our Early-Access
+Program (EAP)"_, insert the following tag in your `head` block before calling `croct.plug` to enable the EAP features:
 
 ```html
+
 <head>
     <script src="https://cdn.croct.io/js/v1/app/00000000-0000-0000-0000-000000000000/custom.js"></script>
     <!-- The tag above should be before the following call -->

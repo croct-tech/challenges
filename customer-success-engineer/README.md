@@ -71,7 +71,7 @@ Here are some additional information you'll need to complete the integration:
 - There is no problem with using other libraries/frameworks. The objective here is to assess your technical skills and
   understand how you deal with documentation
 - If possible, test your application. We absolutely love well-written and tested code! 😍
-- If you have any questions, we're here to support you! Please reach us on the `#support` channel in
+- If you have any questions, we're here to support you! Please reach us on the `#challenges` channel in
   the [Croct Community](https://croct.link/community).
 
 ### Important!
@@ -81,6 +81,7 @@ If you receive the error _"The fetch feature is currently available only to acco
 Program (EAP)"_, insert the following tag in your `head` block before calling `croct.plug` to enable the EAP features:
 
 ```html
+
 <head>
     <script src="https://cdn.croct.io/js/v1/app/00000000-0000-0000-0000-000000000000/custom.js"></script>
     <!-- The tag above should be before the following call -->

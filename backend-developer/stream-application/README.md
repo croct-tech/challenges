@@ -24,7 +24,7 @@ The input stream will be sequences of messages with the following schema:
 - **Timestamp**  
   The time in milliseconds since the UNIX epoch.
 - **IP**  
-  The IP address of the user, or `null` to indicate that no more messages with this client ID will be received.
+  The IP address of the user.
 
 For the output stream should be a sequence of messages with the following schema:
 

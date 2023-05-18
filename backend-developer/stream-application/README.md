@@ -51,16 +51,16 @@ For the output stream should be a sequence of messages with the following schema
 The application should meet the following requirements:
 
 - It must be standalone, meaning you should not use frameworks like Spring, Serverless, or Functions Framework, for example.
-- It should produce at most one localization per client and IP within a time window of 30 minutes.
+- It should produce at most one location per client and IP within a time window of 30 minutes.
   - This 30 minutes should follow, the timestamp of the messages, not the real world time.
 - The translation of IPs to geographical locations should be configurable and you should include at least two of the following implementations:
+  - Reading from a local SQLite3 database (provided here as `IPs.sqlite`)
+  - Reading from a local CSV (provided here as `IPs.csv`)
   - Calling an external API  
     You can chose any external API, if the API requires authentication it should also be configurable, here are some examples:
     - [IPStack](https://ipstack.com/)
     - [IPApi](https://ip-api.com/)
     - [IPGeolocation](https://ipgeolocation.io/)
-  - Reading from a local CSV (provided here as `IPs.csv`)
-  - Reading from a local SQLite3 database (provided here as `IPs.sqlite`)
 - The input stream should be configurable, you should include at least two of the following implementations:
   - Reading from a newline-delimited JSON file (provided as `input.jsonl`)
   - Reading from a CSV file (provided as `input.csv`)
@@ -69,6 +69,7 @@ The application should meet the following requirements:
 - The output stream should be configurable, you should include at least two of the following implementations:
   - Writing to a newline-delimited JSON file
   - Writing a newline-delimited JSON stream to the standard output (your logging in this case must only go to the standard error)
+  - Writing to a CSV file
   - Writing to a Kafka Topic (the key should be the client ID and the value should be a JSON without the ID)
 
 Your implementations should be properly tested.

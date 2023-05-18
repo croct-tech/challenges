@@ -17,7 +17,7 @@
 
 As a backend developer, your task is to create a standalone application that translates IPs from a stream of events into another stream of geographical locations.
 
-The input stream will be sequences of messages with the following schema:
+The input stream will be a sequence of messages with the following schema:
 
 - **Client ID**  
   The ID of the client that emitted the event.

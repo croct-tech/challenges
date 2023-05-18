@@ -5,7 +5,7 @@
     <br />
     <strong>Location Detector</strong>
     <br />
-    A Kafka Streams application that detects the visitor's location based on the IP address.
+    An application that detects the visitor's location based on the IP address.
 </p>
 <p align="center">
     <img alt="Build" src="https://img.shields.io/badge/build-passing-green" />
@@ -15,14 +15,10 @@
 
 # Challenge
 
-As a backend developer, your task is to create a standalone [Kafka stream](https://kafka.apache.org/documentation/streams/) 
-application that translates IPs into geographical locations using the [IPStack](https://ipstack.com/) free API.
+As a backend developer, your task is to create a standalone application that translates IPs from a stream of events into another stream of geographical locations.
 
-<p align="center">
-  <img alt="Topology" src="https://user-images.githubusercontent.com/943036/148793496-5f73bd8f-f515-4e28-8fa6-9fbc88aa0ca4.png" />
-</p>
+The input stream will be a sequence of messages with the following schema:
 
-The schema of the input topic is as follows:
 - **Client ID**  
   The ID of the client that emitted the event.
 - **Timestamp**  
@@ -30,12 +26,12 @@ The schema of the input topic is as follows:
 - **IP**  
   The IP address of the user.
 
-For the output topic, the schema should be:
+For the output stream should be a sequence of messages with the following schema:
 
 - **Client ID**  
-  The ID of the client that emitted the event.
+  The ID of the client that emitted the event. Same as the message that was processed.
 - **Timestamp**  
-  The time in milliseconds since the UNIX epoch.
+  The time in milliseconds since the UNIX epoch. Same as the message that was processed.
 - **IP**  
   The IP address of the user.
 - **Latitude**  
@@ -49,13 +45,34 @@ For the output topic, the schema should be:
 - **City**  
   The city of the user. For example, San Francisco.
 
+
 # Requirements
 
 The application should meet the following requirements:
 
-- It must be standalone, meaning you should not use frameworks like Spring, for example
-- It should produce at most one localization per client and IP within a time window of 30 minutes
-- Unit and integration tests covering all the requirements.
+- It must be standalone, meaning you should not use frameworks like Spring, Serverless, or Functions Framework, for example.
+- It should produce at most one location per client and IP within a time window of 30 minutes.
+  - This 30 minutes should follow, the timestamp of the messages, not the real world time.
+- The translation of IPs to geographical locations should be configurable and you should include at least two of the following implementations:
+  - Reading from a local SQLite3 database (provided here as `IPs.sqlite`)
+  - Reading from a local CSV (provided here as `IPs.csv`)
+  - Calling an external API  
+    You can chose any external API, if the API requires authentication it should also be configurable, here are some examples:
+    - [IPStack](https://ipstack.com/)
+    - [IPApi](https://ip-api.com/)
+    - [IPGeolocation](https://ipgeolocation.io/)
+- The input stream should be configurable, you should include at least two of the following implementations:
+  - Reading from a newline-delimited JSON file (provided as `input.jsonl`)
+  - Reading from a CSV file (provided as `input.csv`)
+  - Reading from a UNIX or TCP socket for newline-delimited JSON
+  - Reading from a Kafka Topic (the key is the client ID, the value is a JSON without the ID)
+- The output stream should be configurable, you should include at least two of the following implementations:
+  - Writing to a newline-delimited JSON file
+  - Writing a newline-delimited JSON stream to the standard output (your logging in this case must only go to the standard error)
+  - Writing to a CSV file
+  - Writing to a Kafka Topic (the key should be the client ID and the value should be a JSON without the ID)
+
+Your implementations should be properly tested.
 
 You can also use open-source libraries available in the community to help you with the project. Why reinvent the wheel, right? 😜
 

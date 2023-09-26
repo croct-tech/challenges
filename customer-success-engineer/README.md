@@ -21,73 +21,30 @@ Supporting marketers and developers means being creative, thinking out of the bo
 
 ## Requirements
 
-![Example](https://user-images.githubusercontent.com/943036/116586841-44833900-a8f0-11eb-8d32-acec2eacee01.png)
+![Example](https://cdn.croct.io/assets/app/92894646-dc3d-4553-bfaf-194598f6aa4c/images/lp-react-personalization.png)
 
-The marketing team has asked you to integrate a personalized banner on their website using our Personalization
-Management System (PMS). The ultimate goal is to dynamically change the content based on the user's persona without
-deploying a new version on every change.
+The marketing team has asked you to integrate a personalized banner on their website using our Personalization 
+Management System (PMS).
 
-For cases like this, we recommend using the Slots feature. Using slots allows the marketing team to change the content
-or personalization rules whenever needed without touching the code, exactly as they requested.
+The ultimate goal is to dynamically change the content based on the user's location without deploying a new version 
+on every change or implementing a geolocation service.
 
-We've set up a sandbox account with all you need, including a slot with ID  `home-banner` and the following structure:
-
-```ts
-type HomeBanner = {
-    title: string,
-    subtitle: string,
-    cta: {
-        label: string,
-        link: string,
-    },
-};
-```
-
-Lastly, there are four contents, each corresponding to one of the following personas:
-
-| Persona        | Condition                           |
-|----------------|-------------------------------------|
-| Marketers      | `user's persona is 'marketer'`      |
-| Developers     | `user's persona is 'developer'`     |
-| Growth Hackers | `user's persona is 'growth-hacker'` |
-| Other          | *(none)*                            |                             |
+For cases like this, we recommend using Croct, which allows the marketing team to change the content or personalization 
+rules whenever needed without touching the code, exactly as they requested.
 
 ## Further Information
 
 Here are some additional information you'll need to complete the integration:
 
-- The app ID for the sandbox account is `00000000-0000-0000-0000-000000000000`.
-- You can implement the slot by using our plug for [JS](https://github.com/croct-tech/plug-js/)
-  or [React](https://github.com/croct-tech/plug-react):
-    - If you choose the React plug, you should use
-      the [Slot component](https://github.com/croct-tech/plug-react#using-slots)
-    - If you choose the JS plug, you should use
-      the [fetch method](https://github.com/croct-tech/plug-js/blob/master/docs/plug.md#fetch)
-- The `persona` is a **custom attribute** of the user profile. To learn how to set up the profile, we suggest you follow
-  our [quick start guide](https://github.com/croct-tech/plug-js/blob/master/docs/quick-start.md), especially
-  the [user profile patch section](https://github.com/croct-tech/plug-js/blob/master/docs/user.md#edit)
+- You can follow our [getting started guide](https://docs.croct.com/introduction/getting-started) to get familiar with 
+  our product.
 - Feel free to design the functionality and UI/UX of the app as you want, but keep in mind we're only focused on the
   personalization implementation
-- There is no problem with using other libraries/frameworks. The objective here is to assess your technical skills and
+- You can implement it using the stack of your choice. The purpose here is to assess your technical skills and 
   understand how you deal with documentation
 - If possible, test your application. We absolutely love well-written and tested code! 😍
 - If you have any questions, we're here to support you! Please reach us on the `#challenges` channel in
   the [Croct Community](https://croct.link/community).
-
-### Important!
-
-The `croct.fetch` API is currently in preview and is enabled only for our Early-Access Program participants.  
-If you receive the error _"The fetch feature is currently available only to accounts participating in our Early-Access
-Program (EAP)"_, insert the following tag in your `head` block before calling `croct.plug` to enable the EAP features:
-
-```html
-
-<head>
-    <script src="https://cdn.croct.io/js/v1/app/00000000-0000-0000-0000-000000000000/custom.js"></script>
-    <!-- The tag above should be before the following call -->
-    <script>croct.plug()</script>
-</head>
-```
 
 ## Deliverable
 

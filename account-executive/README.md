@@ -23,18 +23,13 @@ Completing the challenge will require you to:
 - Record a video of up to 10 minutes with your presentation
 - All this in English 🇺🇸
 
-Besides the chat presented below, you can also use [our success cases](https://blog.croct.com/tag/case-studies) and 
-[this demo video](https://youtu.be/nsudSTeqK48) to get a better understanding of the product. If you want to go further,
-we suggest you [create an account](https://app.croct.com/) and explore the product yourself.
+Besides the [recorded call](https://cdn.croct.io/assets/sales/challenge-account-executive.mp3), you can also use 
+[our success cases](https://blog.croct.com/tag/case-studies) and [this demo video](https://youtu.be/nsudSTeqK48) 
+to get a better understanding of the product. If you want to go further, we suggest you 
+[create an account](https://app.croct.com/) and explore the product yourself.
 
 We don't require a minimum number of slides or minimum duration for the video. Our main goal is to evaluate 
 your learning, synthesis, and communication skills 🙂
-
-## SDR call transcript
-
-Here is the transcript of the interview:
-
-_pending_
 
 ## Deliverable
 

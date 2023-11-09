@@ -11,9 +11,8 @@
 # Challenge
 
 As an account executive who recently joined the team, your task is to conduct a sales meeting to present Croct to 
-a potential customer. The SDR assigned to this lead has already had a quick conversation with the person to qualify 
-the deal, gather the necessary information, and provide you with all the details you need to create and deliver 
-an effective presentation.
+a potential customer. The SDR assigned to this lead has already qualified it and gathered the necessary information 
+for you to create and deliver an effective presentation.
 
 ## Requirements
 

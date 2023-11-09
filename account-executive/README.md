@@ -5,29 +5,28 @@
     <br />
     <strong>Sales Presentation</strong>
     <br />
-    Conduct a sales meeting with a potential customer.
+    Conduct a sales meeting with a prospective client.
 </p>
 
 # Challenge
 
-As an account executive who recently joined the team, your task is to conduct a sales meeting to present Croct to 
-a potential customer. The SDR assigned to this lead has already qualified it and gathered the necessary information 
+As a new Account Executive, you are tasked with conducting a sales meeting to present Croct to a prospective client. The SDR assigned to this lead has already qualified it and gathered the necessary information 
 for you to create and deliver an effective presentation.
 
 ## Requirements
 
 Completing the challenge will require you to:
 
-- Create a few slides to back your presentation
-- Record a video of up to 10 minutes with your presentation
-- All this in English 🇺🇸
+- Create some slides to support your presentation
+- Record a video of your presentation (up to 10 minutes)
+- All in English 🇺🇸
 
 Besides the [recorded call](https://cdn.croct.io/assets/sales/challenge-account-executive.mp3), you can also use 
 [our success cases](https://blog.croct.com/tag/case-studies) and [this demo video](https://youtu.be/nsudSTeqK48) 
 to get a better understanding of the product. If you want to go further, we suggest you 
 [create an account](https://app.croct.com/) and explore the product yourself.
 
-We don't require a minimum number of slides or minimum duration for the video. Our main goal is to evaluate 
+We don't require a minimum number of slides or a minimum duration for the video. Our main goal is to assess 
 your learning, synthesis, and communication skills 🙂
 
 ## Deliverable

@@ -15,10 +15,10 @@ book a meeting.
 
 You received 5 companies in your pipeline, and your goal is to pre-qualify them and reach out to those you believe 
 makes sense. These are the companies:
-- Contabilizei
-- VWO
-- CVC
-- Cia Hering
+- Crefisa
+- Insider
+- Estácio
+- Simple Organic
 - Convert
 
 ## Requirements

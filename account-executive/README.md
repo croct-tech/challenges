@@ -10,8 +10,9 @@
 
 # Challenge
 
-As a new Account Executive, you are tasked with conducting a sales meeting to present Croct to a prospective client. The SDR assigned to this lead has already qualified it and gathered the necessary information 
-for you to create and deliver an effective presentation.
+As a new Account Executive, you are tasked with conducting a sales meeting to present Croct to a prospective client. 
+The SDR assigned to this lead has already qualified it and gathered the necessary information  for you to create and 
+deliver an effective presentation.
 
 ## Requirements
 

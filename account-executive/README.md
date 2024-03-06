@@ -3,15 +3,16 @@
       <img src="https://cdn.croct.io/brand/logo/repo-icon-green.svg" alt="Croct" height="80"/>
     </a>
     <br />
-    <strong>Sales Presentation</strong>
+    <strong>Outbound Strategy</strong>
     <br />
-    Conduct a sales meeting with a prospective client.
+    Reach out to a prospective client.
 </p>
 
 # Challenge
 
-As a new Account Executive, you are tasked with conducting a sales meeting to present Croct to a prospective client. The SDR assigned to this lead has already qualified it and gathered the necessary information 
-for you to create and deliver an effective presentation.
+As a new Account Executive, you are tasked with conducting a sales meeting to present Croct to a prospective client. 
+The SDR assigned to this lead has already qualified it and gathered the necessary information  for you to create and 
+deliver an effective presentation.
 
 ## Requirements
 

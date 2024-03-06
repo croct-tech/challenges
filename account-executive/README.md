@@ -3,9 +3,9 @@
       <img src="https://cdn.croct.io/brand/logo/repo-icon-green.svg" alt="Croct" height="80"/>
     </a>
     <br />
-    <strong>Outbound Strategy</strong>
+    <strong>Sales Presentation</strong>
     <br />
-    Reach out to a prospective client.
+    Conduct a sales meeting with a prospective client.
 </p>
 
 # Challenge

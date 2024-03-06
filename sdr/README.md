@@ -1,11 +1,11 @@
-<p align=“center”>
-    <a href=“https://croct.com”>
-      <img src=“https://cdn.croct.io/brand/logo/repo-icon-green.svg” alt=“Croct” height=“80”/>
+<p align="center">
+    <a href="https://croct.com">
+      <img src="https://cdn.croct.io/brand/logo/repo-icon-green.svg" alt="Croct" height="80"/>
     </a>
     <br />
-    <strong>SDR Challenge</strong>
+    <strong>Outbound Strategy</strong>
     <br />
-    Outbound
+    Reach out to a prospective client.
 </p>
 
 # Challenge

@@ -1,0 +1,39 @@
+.hero {
+  background: var(--ink);
+  color: var(--text-light);
+  padding: 76px 0 96px;
+  overflow: hidden;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+}
+@media (max-width: 960px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+}
+.title {
+  font-size: clamp(34px, 5vw, 58px);
+}
+.lede {
+  font-size: 18px;
+  color: var(--muted-light);
+  max-width: 46ch;
+  margin-top: 20px;
+}
+.actions {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 34px;
+}
+.note {
+  margin-top: 22px;
+  font-size: 13px;
+  color: var(--muted-light);
+  font-family: var(--ff-mono);
+}

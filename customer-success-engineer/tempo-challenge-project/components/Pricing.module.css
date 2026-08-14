@@ -1,0 +1,116 @@
+.container {
+  text-align: center;
+}
+.head {
+  margin-inline: auto;
+  text-align: left;
+}
+
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--paper-card);
+  border: 1px solid var(--paper-line);
+  padding: 6px;
+  border-radius: 999px;
+  margin-bottom: 44px;
+}
+.toggle button {
+  border: none;
+  background: transparent;
+  padding: 9px 18px;
+  border-radius: 999px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--muted-dark);
+}
+.toggle .toggleActive {
+  background: var(--ink);
+  color: var(--text-light);
+}
+.saveBadge {
+  font-family: var(--ff-mono);
+  font-size: 11px;
+  color: var(--teal);
+  background: rgba(47, 122, 114, 0.12);
+  padding: 3px 8px;
+  border-radius: 6px;
+  margin-left: 4px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  align-items: stretch;
+  text-align: left;
+}
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.plan {
+  background: var(--paper-card);
+  border: 1px solid var(--paper-line);
+  border-radius: 18px;
+  padding: 32px 26px;
+  display: flex;
+  flex-direction: column;
+}
+.plan.featured {
+  border-color: var(--ink);
+  box-shadow: var(--shadow);
+  position: relative;
+}
+.badge {
+  position: absolute;
+  top: -13px;
+  left: 26px;
+  background: var(--amber);
+  color: #1b1406;
+  font-family: var(--ff-mono);
+  font-size: 11px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-weight: 600;
+}
+.planName {
+  font-size: 19px;
+}
+.price {
+  font-family: var(--ff-display);
+  font-size: 40px;
+  margin: 18px 0 4px;
+}
+.period {
+  font-size: 13px;
+  color: var(--muted-dark);
+  font-family: var(--ff-mono);
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.list li {
+  font-size: 14px;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  color: var(--text-dark);
+}
+.list li span {
+  color: var(--teal);
+  flex-shrink: 0;
+}
+
+/* alinha os CTAs na base independente do nº de itens do plano */
+.plan :global(.btn-block) {
+  margin-top: auto;
+}

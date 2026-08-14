@@ -1,0 +1,93 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(18, 21, 27, 0.9);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+.scrolled {
+  border-bottom-color: var(--ink-line);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 0;
+  color: var(--text-light);
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--ff-display);
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+  color: var(--text-light);
+}
+.logoMark {
+  width: 26px;
+  height: 26px;
+  border-radius: 7px;
+  background: linear-gradient(135deg, var(--amber), var(--teal));
+}
+
+.navLinks {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navLinks a {
+  text-decoration: none;
+  font-size: 14.5px;
+  color: var(--muted-light);
+  transition: color 0.15s;
+}
+.navLinks a:hover {
+  color: var(--text-light);
+}
+
+.navActions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.navToggle {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--text-light);
+  font-size: 20px;
+  line-height: 1;
+  padding: 6px;
+}
+
+@media (max-width: 840px) {
+  .navLinks {
+    display: none;
+  }
+  .navToggle {
+    display: block;
+  }
+  .navLinks.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 64px;
+    right: 0;
+    gap: 16px;
+    background: var(--ink-soft);
+    border: 1px solid var(--ink-line);
+    padding: 18px 24px;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+  }
+}

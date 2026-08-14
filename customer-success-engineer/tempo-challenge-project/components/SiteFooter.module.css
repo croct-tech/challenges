@@ -1,0 +1,37 @@
+.footer {
+  background: var(--ink);
+  color: var(--muted-light);
+  border-top: 1px solid var(--ink-line);
+  padding: 36px 0;
+}
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  font-size: 13px;
+}
+.footer a {
+  text-decoration: none;
+  color: var(--muted-light);
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--ff-display);
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--text-light);
+}
+.logoMark {
+  width: 18px;
+  height: 18px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, var(--amber), var(--teal));
+}
+.links {
+  display: flex;
+  gap: 22px;
+}

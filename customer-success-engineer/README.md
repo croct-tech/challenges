@@ -5,7 +5,6 @@
     <br />
     <strong>Croct App</strong>
     <br />
-    Create a personalized application using Croct.
 </p>
 <p align="center">
     <img alt="Language" src="https://img.shields.io/badge/language-TypeScript-blue" />
@@ -16,39 +15,55 @@
 
 # Challenge
 
-As a Customer Success Engineer, you will be responsible for helping our customers to get the most out of our platform.
-Supporting marketers and developers means being creative, thinking out of the box, and empowering them.
+As a Customer Success Engineer, you will help our customers get the most out of our platform. Supporting marketers and developers means being creative, approaching problems from different angles, and empowering them.
 
-## Requirements
+A significant part of the role involves investigating implementation issues, identifying their root causes, and communicating technical findings clearly to customers and internal teams.
 
-![Example](https://cdn.croct.io/assets/app/92894646-dc3d-4553-bfaf-194598f6aa4c/images/lp-react-personalization.png)
+This challenge has two parts. 
 
-The marketing team has asked you to integrate a personalized banner on their website using our Personalization 
-Management System (PMS).
+## Part 1: Debugging
 
-The ultimate goal is to dynamically change the content based on the user's location without deploying a new version 
-on every change or implementing a geolocation service.
+This is a [website]() where a customer is integrating Croct, along with the project containing its [source code]().
 
-For cases like this, we recommend using Croct, which allows the marketing team to change the content or personalization 
-rules whenever needed without touching the code, exactly as they requested.
+Below are a few scenarios describing technical issues they run into. Investigate each issue, identify its root cause, explain your findings, and describe how you would resolve it. Answer as if you were replying directly to the customer. 
+
+You can assume the account, slot, and component are correctly configured in Croct. The issue is in the implementation itself.
+
+### Scenario 1
+
+The customer reports that the `Hero` section on their website is not displaying the content configured in the slot. Check the integration, identify the cause, and explain how the customer should resolve it.
+
+### Scenario 2
+
+The customer has implemented a slot in the `Features` section. The cards, tagline, and description update correctly, but the title doesn't reflect the defined slot content. Check the integration, identify the cause, and explain how the customer should resolve it.
+
+### Scenario 3
+
+The customer implemented a slot in the `How It Works` section, but noticed it shows Portuguese content instead of English. Check the integration, identify the cause, and explain how the customer should resolve it.
+
+## Part 2: General questions
+
+Below are a few questions customers commonly ask about the platform. Choose **three** and answer them as if you were replying directly to the customer, including suggestions on what they should do next.
+
+1. "Our personalized content sometimes shows up a second after the rest of the page loads, and on the very first load visitors see the generic version. Is that expected, or is it a bug?"
+
+2. "We pre-build our product pages ahead of time to make the site faster, but now the personalized banner always shows the exact same content to every visitor, no matter who's browsing. Any idea why that's happening?”
+
+3. "One of our devs added a refresh button to reload the banner on a page, but even after we changed the targeting rules, clicking it doesn't seem to pull the updated content. Do you know what could be causing that?”
+
+4. "We've been running a test for two days, and the dashboard already shows a 90% chance that variant B is winning, but it's still a pretty small number of people. Can we trust that number, or is it too early?" 
+
+5. "We only translated the campaign banner into English and Spanish, but now a visitor from Canada browsing in French is seeing the English version. Shouldn't it be in French?"
+
+6. "I'm reviewing the results of my A/B test and noticed something strange. The overall dashboard shows conversions for both `orderPlaced` and `checkoutStarted`, but I'm not seeing any conversions for these events in my test results. Our main website is hosted on one domain, while the checkout is hosted on a subdomain. What could be causing this discrepancy?"
 
 ## Further Information
 
-Here are some additional information you'll need to complete the integration:
-
-- You can follow our [getting started guide](https://docs.croct.com/introduction/getting-started) to get familiar with 
-  our product.
-- Feel free to design the functionality and UI/UX of the app as you want, but keep in mind we're only focused on the
-  personalization implementation
-- You can implement it using the stack of your choice. The purpose here is to assess your technical skills and 
-  understand how you deal with documentation
-- If possible, test your application. We absolutely love well-written and tested code! 😍
-- If you have any questions, we're here to support you! Please reach us on the `#challenges` channel in
-  the [Croct Community](https://croct.link/community).
+- You can follow our [getting started guide](https://docs.croct.com/introduction/getting-started) to get familiar with our product.
+- Feel free to use our documentation and any public resources to support your answer.
+- The purpose here is to assess your technical understanding and communication skills, not to find a "trick" answer.
+- If you have any questions, we're here to support you! Please reach us at customer@croct.com
 
 ## Deliverable
 
-Please send us the repository's link to jobs@croct.com, and we will reply to your email with the next steps in the
-process.
-
-We will do our best to review your project and get back with feedback on the result as soon as possible.
+Please send your answers to jobs@croct.com and customer@croct.com, and we will reply with the next steps. We will do our best to review your answers and get back to you with feedback as soon as possible.

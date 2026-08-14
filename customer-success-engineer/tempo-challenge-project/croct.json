@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schema.croct.com/json/v1/project.json",
+  "organization": "cs-mkt-templates",
+  "workspace": "challenge",
+  "applications": {
+    "development": "dev"
+  },
+  "locales": [
+    "en-us",
+    "pt-br"
+  ],
+  "defaultLocale": "en-us",
+  "slots": {
+    "features-section": "2",
+    "home-hero": "1",
+    "how-it-works-section": "1"
+  },
+  "components": {},
+  "paths": {
+    "source": ".",
+    "utilities": "lib",
+    "components": "components",
+    "examples": "app",
+    "content": "."
+  }
+}

@@ -1,0 +1,193 @@
+/* ============================================================
+   Design tokens + base + utilitários globais
+   As famílias tipográficas vêm de next/font (app/fonts.ts),
+   expostas como --font-fraunces / --font-inter / --font-plex-mono.
+   ============================================================ */
+:root {
+  --ink: #12151b;
+  --ink-soft: #1c2029;
+  --ink-line: rgba(243, 241, 233, 0.12);
+  --paper: #eef0ea;
+  --paper-card: #ffffff;
+  --paper-line: rgba(27, 30, 36, 0.1);
+  --amber: #e3a73b;
+  --amber-dark: #c98f28;
+  --teal: #2f7a72;
+  --teal-dark: #245e58;
+  --text-dark: #1b1e24;
+  --text-light: #f3f1e9;
+  --muted-dark: #5c6068;
+  --muted-light: #a7ac9d;
+  --radius: 14px;
+  --shadow: 0 20px 40px -20px rgba(18, 21, 27, 0.35);
+
+  --ff-display: var(--font-fraunces), serif;
+  --ff-body: var(--font-inter), -apple-system, sans-serif;
+  --ff-mono: var(--font-plex-mono), monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: var(--ff-body);
+  color: var(--text-dark);
+  background: var(--paper);
+  -webkit-font-smoothing: antialiased;
+}
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+a {
+  color: inherit;
+}
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.container {
+  width: min(1160px, 100% - 48px);
+  margin-inline: auto;
+}
+section {
+  padding: 96px 0;
+}
+@media (max-width: 720px) {
+  section {
+    padding: 64px 0;
+  }
+  .container {
+    width: min(1160px, 100% - 32px);
+  }
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--ff-display);
+  font-weight: 600;
+  line-height: 1.08;
+  margin: 0;
+}
+h2 {
+  font-size: clamp(28px, 3.6vw, 42px);
+  letter-spacing: -0.01em;
+}
+p {
+  line-height: 1.65;
+  margin: 0;
+}
+.muted {
+  color: var(--muted-dark);
+}
+
+/* ---- Eyebrow ---- */
+.eyebrow {
+  font-family: var(--ff-mono);
+  font-size: 12.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--teal);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 18px;
+}
+.eyebrow::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--amber);
+  display: inline-block;
+}
+
+/* ---- Botões ---- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px 24px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+  white-space: nowrap;
+}
+.btn:active {
+  transform: translateY(1px);
+}
+.btn-amber {
+  background: var(--amber);
+  color: #1b1406;
+}
+.btn-amber:hover {
+  background: var(--amber-dark);
+  box-shadow: 0 10px 24px -8px rgba(227, 167, 59, 0.55);
+}
+.btn-outline-dark {
+  border-color: var(--ink-line);
+  color: var(--text-light);
+  background: transparent;
+}
+.btn-outline-dark:hover {
+  background: rgba(243, 241, 233, 0.08);
+}
+.btn-outline-light {
+  border-color: var(--paper-line);
+  color: var(--text-dark);
+  background: transparent;
+}
+.btn-outline-light:hover {
+  background: rgba(27, 30, 36, 0.05);
+}
+.btn-teal {
+  background: var(--teal);
+  color: #eafaf6;
+}
+.btn-teal:hover {
+  background: var(--teal-dark);
+}
+.btn-block {
+  width: 100%;
+}
+.btn:focus-visible,
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid var(--teal);
+  outline-offset: 2px;
+}
+
+/* ---- Cabeçalho de seção ---- */
+.section-head {
+  max-width: 640px;
+  margin-bottom: 52px;
+}
+.section-head p {
+  margin-top: 14px;
+  font-size: 16.5px;
+  color: var(--muted-dark);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}

@@ -23,7 +23,7 @@ This challenge has two parts.
 
 ## Part 1: Debugging
 
-This is a [website]() where a customer is integrating Croct, along with the project containing its [source code]().
+This is a [website](https://croct-cse-challange.vercel.app/) where a customer is integrating Croct, along with the project containing its [source code](https://github.com/croct-tech/challenges/tree/main/customer-success-engineer/tempo-challenge-project).
 
 Below are a few scenarios describing technical issues they run into. Investigate each issue, identify its root cause, explain your findings, and describe how you would resolve it. Answer as if you were replying directly to the customer. 
 

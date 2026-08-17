@@ -1,0 +1,38 @@
+.how {
+  background: var(--ink);
+  color: var(--text-light);
+}
+.how .head p {
+  color: var(--muted-light);
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 800px) {
+  .steps {
+    grid-template-columns: 1fr;
+  }
+}
+.step {
+  border-top: 1px solid var(--ink-line);
+  padding-top: 22px;
+}
+.num {
+  font-family: var(--ff-mono);
+  color: var(--amber);
+  font-size: 13px;
+}
+.stepTitle {
+  font-size: 19px;
+  margin: 12px 0 10px;
+}
+.stepBody {
+  color: var(--muted-light);
+  font-size: 14.5px;
+}

@@ -1,0 +1,75 @@
+.wrap {
+  position: relative;
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+.slide {
+  display: none;
+  margin: 0;
+}
+.slide.active {
+  display: block;
+  animation: fade 0.3s ease;
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.quote {
+  font-family: var(--ff-display);
+  font-size: clamp(20px, 2.6vw, 27px);
+  line-height: 1.4;
+  font-weight: 500;
+}
+.person {
+  margin-top: 22px;
+  font-family: var(--ff-mono);
+  font-size: 13px;
+  color: var(--muted-dark);
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 34px;
+}
+.arrow {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid var(--paper-line);
+  background: var(--paper-card);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  line-height: 1;
+  color: var(--text-dark);
+}
+.dots {
+  display: flex;
+  gap: 8px;
+}
+.dots button {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: none;
+  background: var(--paper-line);
+  padding: 0;
+  transition: width 0.2s ease;
+}
+.dots .dotActive {
+  background: var(--teal);
+  width: 20px;
+  border-radius: 5px;
+}

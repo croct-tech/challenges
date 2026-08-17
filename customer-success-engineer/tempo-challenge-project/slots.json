@@ -1,0 +1,138 @@
+{
+  "features-section": [
+    {
+      "version": 2,
+      "content": {
+        "en-us": {
+          "_component": "features-section@2",
+          "heading": "Make room for the work that matters.",
+          "tagline": "Because focus shouldn’t be accidental (slot)",
+          "features": [
+            {
+              "icon": "◐",
+              "title": "Focus time on autopilot",
+              "description": "Tempo finds the best open windows across your team and automatically blocks focus time every week."
+            },
+            {
+              "icon": "▦",
+              "title": "Protect deep work",
+              "description": "Set shared no-meeting hours and give your team uninterrupted time to do their best work."
+            },
+            {
+              "icon": "◑",
+              "title": "See where focus goes",
+              "description": "See how much focus time your team actually protected each week,  and what got in the way."
+            },
+            {
+              "icon": "⇄",
+              "title": "Works where your team works",
+              "description": "Sync with the tools your team already uses — Google Calendar, Outlook, and Slack."
+            }
+          ],
+          "description": "Tempo turns your calendar into a system for protecting focus, coordinating your team, and making time count."
+        },
+        "pt-br": {
+          "_component": "features-section@2",
+          "heading": "Português",
+          "tagline": "Português",
+          "features": [
+            {
+              "icon": "◐",
+              "title": "Focus time on autopilot",
+              "description": "Tempo finds the best open windows across your team and automatically blocks focus time every week."
+            },
+            {
+              "icon": "▦",
+              "title": "Protect deep work",
+              "description": "Set shared no-meeting hours and give your team uninterrupted time to do their best work."
+            },
+            {
+              "icon": "◑",
+              "title": "See where focus goes",
+              "description": "See how much focus time your team actually protected each week,  and what got in the way."
+            },
+            {
+              "icon": "⇄",
+              "title": "Works where your team works",
+              "description": "Sync with the tools your team already uses — Google Calendar, Outlook, and Slack."
+            }
+          ],
+          "description": "Tempo turns your calendar into a system for protecting focus, coordinating your team, and making time count."
+        }
+      }
+    }
+  ],
+  "home-hero": [
+    {
+      "version": 1,
+      "content": {
+        "en-us": {
+          "_component": "home-hero@1",
+          "title": "Turn empty calendars into deep work.",
+          "details": "No credit card · Free for teams up to 5 ",
+          "tagline": "Time-blocking for focused teams (slot)",
+          "primaryCta": {
+            "url": "#signup",
+            "label": "Start free trial"
+          },
+          "description": "Tempo scans your team's week, finds the gaps between meetings, and quietly blocks off real focus time — before it gets booked over.",
+          "secondaryCta": {
+            "url": "#",
+            "label": "Watch 2-min demo"
+          }
+        }
+      }
+    }
+  ],
+  "how-it-works-section": [
+    {
+      "version": 1,
+      "content": {
+        "en-us": {
+          "_component": "how-it-works-section@1",
+          "steps": [
+            {
+              "title": "Connect your calendar",
+              "stepNumber": 1,
+              "description": "Link Google Calendar or Outlook in under a minute. Tempo reads your week, nothing else."
+            },
+            {
+              "title": "Set your focus rules",
+              "stepNumber": 2,
+              "description": "Tell Tempo how many hours you need and when you do your best work."
+            },
+            {
+              "title": "Tempo protects the time",
+              "stepNumber": 3,
+              "description": "Focus blocks appear automatically each week and hold their ground against new invites."
+            }
+          ],
+          "heading": "Set up once. Protected every week after",
+          "tagline": "Getting started"
+        },
+        "pt-br": {
+          "_component": "how-it-works-section@1",
+          "steps": [
+            {
+              "title": "Conecte seu calendário",
+              "stepNumber": 1,
+              "description": "Conecte seu Google Calendar ou Outlook em menos de um minuto. O Tempo acessa apenas sua agenda semanal."
+            },
+            {
+              "title": "Defina suas regras de foco",
+              "stepNumber": 2,
+              "description": "Diga ao Tempo quantas horas de foco você precisa e em quais momentos do dia trabalha melhor."
+            },
+            {
+              "title": "O Tempo protege seu tempo",
+              "stepNumber": 3,
+              "description": "Toda semana, o Tempo cria seus blocos de foco automaticamente e protege esse tempo contra novos convites."
+            }
+          ],
+          "heading": "Configure uma vez. Tenha seu tempo protegido toda semana.",
+          "tagline": "Primeiros passos"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+.widget {
+  background: var(--ink-soft);
+  border: 1px solid var(--ink-line);
+  border-radius: 20px;
+  padding: 22px;
+  box-shadow: var(--shadow);
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.week {
+  font-family: var(--ff-mono);
+  font-size: 12px;
+  color: var(--muted-light);
+  letter-spacing: 0.06em;
+}
+.counter {
+  font-family: var(--ff-mono);
+  font-size: 13px;
+  color: var(--amber);
+  white-space: nowrap;
+}
+.counter strong {
+  font-size: 16px;
+}
+
+.cal {
+  display: grid;
+  grid-template-columns: 44px repeat(5, 1fr);
+  gap: 6px;
+}
+.colHead {
+  font-family: var(--ff-mono);
+  font-size: 11px;
+  color: var(--muted-light);
+  text-align: center;
+  padding-bottom: 6px;
+}
+.rowLabel {
+  font-family: var(--ff-mono);
+  font-size: 10.5px;
+  color: var(--muted-light);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 4px;
+}
+
+.slot {
+  height: 30px;
+  width: 100%;
+  padding: 0;
+  border-radius: 6px;
+  background: rgba(243, 241, 233, 0.045);
+  border: 1px solid rgba(243, 241, 233, 0.06);
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.1s ease;
+}
+.slot:hover:not(:disabled) {
+  background: rgba(243, 241, 233, 0.09);
+}
+.slot.active {
+  background: linear-gradient(135deg, var(--amber), #f0c169);
+  border-color: transparent;
+  animation: pop 0.22s ease;
+}
+.slot.busySlot {
+  background: repeating-linear-gradient(
+    135deg,
+    rgba(243, 241, 233, 0.07),
+    rgba(243, 241, 233, 0.07) 4px,
+    transparent 4px,
+    transparent 8px
+  );
+  cursor: not-allowed;
+}
+
+@keyframes pop {
+  from {
+    transform: scale(0.85);
+    opacity: 0.4;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--ink-line);
+}
+.legend {
+  display: flex;
+  gap: 16px;
+  font-size: 12px;
+  color: var(--muted-light);
+  font-family: var(--ff-mono);
+}
+.legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 3px;
+  display: inline-block;
+}
+.free {
+  background: rgba(243, 241, 233, 0.15);
+}
+.busy {
+  background: rgba(243, 241, 233, 0.3);
+}
+.focus {
+  background: var(--amber);
+}
+.hint {
+  font-size: 11.5px;
+  color: var(--muted-light);
+}
+
+@media (max-width: 420px) {
+  .legend {
+    gap: 10px;
+    font-size: 11px;
+  }
+  .hint {
+    display: none;
+  }
+}

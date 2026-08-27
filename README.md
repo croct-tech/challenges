@@ -78,3 +78,6 @@ Create a newsletter email.
 
 - [**Content Editor**](/content-editor)  
 Review and improve a blog post.
+
+- [**Growth marketer**](/Growth marketer)  
+Map alternative traction channels and strategies
